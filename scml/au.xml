@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10" version="0.10">
+  <Inventory>
+    <sensor publicID="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel" name="sensor_Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel" response="NRL/ResponsePAZ/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel/0">
+      <description>Lennartz; LE-3Dlite-MkII; Long-Period_Corner 1 s; Sensitivity 400 V/m/s; Sensor_Type groundVel</description>
+      <model>LE-3Dlite-MkII</model>
+      <manufacturer>Lennartz</manufacturer>
+      <unit>m/s</unit>
+      <remark>{"unit": "Velocity in Meters Per Second", "version": "2021-03-18", "parameters": {"Long-Period_Corner": "1 s", "Sensitivity": "400 V/m/s", "Sensor_Type": "groundVel"}}</remark>
+    </sensor>
+    <datalogger publicID="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" name="datalogger_Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear">
+      <description>Nanometrics; Centaur; Full-Scale_Voltage 40Vpp; Final_Sample_Rate 200 Hz; DC_Filter Off; Final_Filter_Phase Linear</description>
+      <digitizerModel>Centaur</digitizerModel>
+      <digitizerManufacturer>Nanometrics</digitizerManufacturer>
+      <recorderModel>Centaur</recorderModel>
+      <recorderManufacturer>Nanometrics</recorderManufacturer>
+      <gain>400000</gain>
+      <remark>{"version": "2025-04-09", "parameters": {"Full-Scale_Voltage": "40Vpp", "Final_Sample_Rate": "200 Hz", "DC_Filter": "Off", "Final_Filter_Phase": "Linear"}}</remark>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/0 NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/1 NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/2</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="NRL/ResponsePAZ/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel/0" name="NRL/ResponsePAZ/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel/0">
+      <type>A</type>
+      <gain>400</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>3</numberOfPoles>
+      <zeros>(0,0) (0,0) (0,0)</zeros>
+      <poles>(-1.083,0) (-4.444,-4.444) (-4.444,4.444)</poles>
+    </responsePAZ>
+    <responseFIR publicID="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/0" name="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/0">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>15</decimationFactor>
+      <delay>86.0001</delay>
+      <correction>86.0001</correction>
+      <numberOfCoefficients>87</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-4.36251e-10 -1.80638e-09 -5.57039e-09 -1.43857e-08 -3.29564e-08 -6.9106e-08 -1.35197e-07 -2.49921e-07 -4.40432e-07 -7.44758e-07 -1.21435e-06 -1.91648e-06 -2.93628e-06 -4.37772e-06 -6.36325e-06 -9.03122e-06 -1.25305e-05 -1.70116e-05 -2.26134e-05 -2.94454e-05 -3.75653e-05 -4.69514e-05 -5.7471e-05 -6.88472e-05 -8.06233e-05 -9.21305e-05 -0.00010246 -0.000110448 -0.000114666 -0.000113442 -0.000104896 -8.70058e-05 -5.77047e-05 -1.50087e-05 4.2822e-05 0.000117095 0.000208472 0.000316746 0.000440611 0.00057745 0.000723153 0.000871981 0.00101651 0.00114768 0.00125488 0.00132628 0.0013492 0.00131066 0.00119801 0.000999781 0.000706519 0.000311744 -0.00018709 -0.000787669 -0.00148199 -0.00225565 -0.00308741 -0.00394894 -0.00480495 -0.00561366 -0.0063276 -0.00689485 -0.00726063 -0.0073692 -0.00716606 -0.00660035 -0.00562732 -0.00421081 -0.0023256 4.04992e-05 0.00288491 0.00618906 0.00991772 0.014019 0.0184249 0.023053 0.0278081 0.0325852 0.0372727 0.0417557 0.0459205 0.0496579 0.0528678 0.0554623 0.0573694 0.0585357 0.0589281</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/1" name="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/1">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>5</decimationFactor>
+      <delay>47</delay>
+      <correction>47</correction>
+      <numberOfCoefficients>48</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>6.15343e-09 3.53052e-08 1.08986e-07 2.14286e-07 2.2567e-07 -1.68219e-07 -1.41445e-06 -3.77091e-06 -6.66079e-06 -7.96281e-06 -3.89963e-06 9.60392e-06 3.36284e-05 6.18314e-05 7.74814e-05 5.58158e-05 -2.52052e-05 -0.000166561 -0.000329415 -0.000428927 -0.000354311 -2.02975e-05 0.000562296 0.00122953 0.00166455 0.00148856 0.000439482 -0.00141854 -0.00355801 -0.00503543 -0.0047839 -0.00210515 0.00281102 0.00859469 0.0128681 0.0129735 0.00711022 -0.0045056 -0.0189689 -0.0309348 -0.0339263 -0.0224213 0.00594329 0.0488783 0.0993351 0.147012 0.181112 0.193488</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/2" name="NRL/ResponseFIR/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear/2">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>111</delay>
+      <correction>111</correction>
+      <numberOfCoefficients>112</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.4877e-10 4.73744e-09 1.24032e-08 2.18423e-09 -2.9735e-08 -2.7741e-08 4.8235e-08 9.04852e-08 -4.3772e-08 -2.02925e-07 -2.93251e-08 3.57677e-07 2.38076e-07 -5.05054e-07 -6.56661e-07 5.29514e-07 1.33303e-06 -2.35391e-07 -2.23456e-06 -6.43189e-07 3.17885e-06 2.39189e-06 -3.76643e-06 -5.21313e-06 3.34388e-06 9.06984e-06 -1.0342e-06 -1.34948e-05 -4.1282e-06 1.74081e-05 1.29325e-05 -1.90112e-05 -2.55982e-05 1.58385e-05 4.12985e-05 -5.05136e-06 -5.76943e-05 -1.59734e-05 7.06232e-05 4.87621e-05 -7.41183e-05 -9.2656e-05 6.09281e-05 0.000143704 -2.36571e-05 -0.000193818 -4.34607e-05 0.000230529 0.0001423 -0.000237697 -0.00026842 0.00019742 0.000408986 -9.32264e-05 -0.000541667 -8.56506e-05 0.000635146 0.000339424 -0.000651794 -0.000653162 0.000552734 0.000993533 -0.000305133 -0.00130802 -0.000108987 0.00152764 0.000683646 -0.00157381 -0.00138119 0.00136932 0.00212784 -0.000852739 -0.00281433 -5.43598e-06 0.00330293 0.00118724 -0.00344149 -0.00261502 0.00308386 0.00414554 -0.00211493 -0.00557267 0.000477543 0.00664017 0.00180254 -0.00706464 -0.00459738 0.00656694 0.0076669 -0.00490895 -0.0106603 0.00193106 0.0131289 0.00241487 -0.0145476 -0.00804248 0.0143373 0.0147221 -0.0118736 -0.0220889 0.00645106 0.0296694 0.00287172 -0.0369222 -0.0177763 0.0432915 0.0424836 -0.0482648 -0.0928087 0.0514286 0.313777 0.447486</coefficients>
+    </responseFIR>
+    <network publicID="Network#20251017055648.020237.10825" code="AU">
+      <start>2021-09-01T05:57:01.0000Z</start>
+      <end>2022-09-01T05:57:30.0000Z</end>
+      <description>ANSN (Geoscience Australia) stations, mainly RDK stations where metadata is not available elsewhere</description>
+      <station publicID="Station#20251125114100.552417.57653" code="RDK1">
+        <start>2021-09-25T00:00:00.0000Z</start>
+        <latitude>-37.36286</latitude>
+        <longitude>146.33843</longitude>
+        <elevation>1166</elevation>
+        <sensorLocation publicID="SensorLocation#20251125114100.903356.58669" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.36286</latitude>
+          <longitude>146.33843</longitude>
+          <elevation>1166</elevation>
+          <stream publicID="Stream#20251125114100.905321.21566" code="HHE" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114100.905339.28582" code="HHN" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114100.905353.18460" code="HHZ" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125113140.114973.30816" code="RDK6">
+        <start>2021-09-25T00:00:00.0000Z</start>
+        <latitude>-37.51707</latitude>
+        <longitude>146.28437</longitude>
+        <elevation>907</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125113315.407807.10638" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.51707</latitude>
+          <longitude>146.28437</longitude>
+          <elevation>907</elevation>
+          <stream publicID="Stream#20251125113809.900922.65298" code="EHZ" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125113811.380852.56522" code="EHN" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125113813.973154.47089" code="EHE" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125114003.397224.6147" code="RDK3">
+        <start>2021-09-25T00:00:00.0000Z</start>
+        <latitude>-37.50238</latitude>
+        <longitude>146.43965</longitude>
+        <elevation>1113</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125114003.73301.45162" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.50238</latitude>
+          <longitude>146.43965</longitude>
+          <elevation>1113</elevation>
+          <stream publicID="Stream#20251125114003.738817.46617" code="HHE" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114003.738836.21157" code="HHN" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114003.73885.8194" code="HHZ" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125114155.774517.12656" code="RDK2">
+        <start>2021-09-24T00:00:00.0000Z</start>
+        <latitude>-37.613</latitude>
+        <longitude>146.38263</longitude>
+        <elevation>1161</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125114156.109838.4735" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.613</latitude>
+          <longitude>146.38263</longitude>
+          <elevation>1161</elevation>
+          <stream publicID="Stream#20251125114156.112397.34303" code="HHE" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114156.112409.25366" code="HHN" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125114156.112418.8428" code="HHZ" datalogger="NRL/Datalogger/Nanometrics_Centaur_FV40Vpp_FR200_DFOff_FPLinear" sensor="NRL/Sensor/Lennartz_LE-3Dlite-MkII_LP1_SG400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>160000000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

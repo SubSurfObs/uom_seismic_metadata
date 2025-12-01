@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10" version="0.10">
+  <Inventory>
+    <sensor publicID="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel" name="sensor_Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel" response="NRL/ResponsePAZ/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel/0">
+      <description>Guralp; CMG-6T; Long-Period_Corner 1 s; High-Frequency_Corner 100 Hz; Sensitivity 2400 V/m/s; Sensor_Type groundVel</description>
+      <model>CMG-6T</model>
+      <manufacturer>Guralp</manufacturer>
+      <unit>m/s</unit>
+      <remark>{"unit": "Velocity in Meters Per Second", "version": "2021-12-06T08:00:00", "parameters": {"Long-Period_Corner": "1 s", "High-Frequency_Corner": "100 Hz", "Sensitivity": "2400 V/m/s", "Sensor_Type": "groundVel"}}</remark>
+    </sensor>
+    <sensor publicID="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel" name="sensor_Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel" response="NRL/ResponsePAZ/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel/0">
+      <description>Nanometrics; TrilliumCompact20; Long-Period_Corner 20 s; Sensitivity 753 V/m/s; Sensor_Type groundVel</description>
+      <model>TrilliumCompact20</model>
+      <manufacturer>Nanometrics</manufacturer>
+      <unit>m/s</unit>
+      <remark>{"unit": "Velocity in Meters Per Second", "version": "2021-03-18T07:00:00", "parameters": {"Long-Period_Corner": "20 s", "Sensitivity": "753 V/m/s", "Sensor_Type": "groundVel"}}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger#20250527123131.202676.64414" name="datalogger_SeismologyResearchCentre_EchoPro_FR250">
+      <digitizerModel>EchoPro</digitizerModel>
+      <digitizerManufacturer>Seismology Research Centre</digitizerManufacturer>
+      <recorderModel>EchoPro</recorderModel>
+      <recorderManufacturer>Seismology Research Centre</recorderManufacturer>
+      <gain>838860.8</gain>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" name="datalogger_SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+      <description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</description>
+      <digitizerModel>Gecko</digitizerModel>
+      <digitizerManufacturer>SeismologyResearchCentre</digitizerManufacturer>
+      <recorderModel>Gecko</recorderModel>
+      <recorderManufacturer>SeismologyResearchCentre</recorderManufacturer>
+      <gain>406789</gain>
+      <remark>{"version": "2021-11-03T07:00:00", "parameters": {"Preamp_Gain": "1", "Serial_Number": "from2000225", "Final_Sample_Rate": "250 Hz"}}</remark>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="NRL/ResponsePAZ/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel/0" name="NRL/ResponsePAZ/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel/0">
+      <type>A</type>
+      <gain>2400</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>911329000000</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>6</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.4422,-4.4422) (-4.4422,4.4422) (-391.96,-850.69) (-391.96,850.69) (-471.24,0) (-2199.1,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="NRL/ResponsePAZ/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel/0" name="NRL/ResponsePAZ/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel/0">
+      <type>A</type>
+      <gain>753.1</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>4.34491e+17</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>6</numberOfZeros>
+      <numberOfPoles>11</numberOfPoles>
+      <zeros>(0,0) (0,0) (-392,0) (-1490,1740) (-1490,-1740) (-1960,0)</zeros>
+      <poles>(-0.2214,-0.2221) (-0.2214,0.2221) (-343,0) (-370,-467) (-370,467) (-836,-1522) (-836,1522) (-4900,-4700) (-4900,4700) (-6900,0) (-15000,0)</poles>
+    </responsePAZ>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>5</delay>
+      <correction>5</correction>
+      <numberOfCoefficients>6</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.00585938 0 -0.0488281 0 0.292969 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>7</delay>
+      <correction>7</correction>
+      <numberOfCoefficients>8</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-0.00130463 0 0.0123748 0 -0.0605468 0 0.299477 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>4</decimationFactor>
+      <delay>25.5</delay>
+      <correction>25.5</correction>
+      <numberOfCoefficients>52</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>0 0 -5.43892e-07 -6.51181e-06 -3.46303e-05 -0.000120304 -0.00030756 -0.000603005 -0.000894547 -0.000884309 -0.000135623 0.00167453 0.0043228 0.00665533 0.00664142 0.00218748 -0.00735561 -0.0196381 -0.0287616 -0.0266173 -0.00612865 0.0347872 0.0905521 0.148349 0.192071 0.208369 0.192071 0.148349 0.0905521 0.0347872 -0.00612865 -0.0266173 -0.0287616 -0.0196381 -0.00735561 0.00218748 0.00664142 0.00665533 0.0043228 0.00167453 -0.000135623 -0.000884309 -0.000894547 -0.000603005 -0.00030756 -0.000120304 -3.46303e-05 -6.51181e-06 -5.43892e-07 0 0 0</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>54.5</delay>
+      <correction>54.5</correction>
+      <numberOfCoefficients>110</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-9.83477e-07 -3.21865e-06 -5.58793e-07 1.84849e-05 4.98593e-05 5.52759e-05 -1.98185e-06 -7.94455e-05 -6.16908e-05 7.91252e-05 0.000163972 2.5928e-06 -0.000254236 -0.000190355 0.000249296 0.000457369 -5.62221e-05 -0.000701785 -0.000377215 0.000753515 0.00100453 -0.000421897 -0.0016399 -0.000417843 0.00196515 0.0017228 -0.0016036 -0.00320508 0.000258647 0.0043245 0.00211506 -0.00438379 -0.00516481 0.00272779 0.00808229 0.00099013 -0.0096864 -0.00654639 0.00865898 0.0129757 -0.00389317 -0.0185549 -0.00513304 0.0209491 0.0180713 -0.0174202 -0.0336104 0.00477996 0.0496338 0.0219853 -0.0636135 -0.078509 0.0731534 0.30865 0.423459 0.30865 0.0731534 -0.078509 -0.0636135 0.0219853 0.0496338 0.00477996 -0.0336104 -0.0174202 0.0180713 0.0209491 -0.00513304 -0.0185549 -0.00389317 0.0129757 0.00865898 -0.00654639 -0.0096864 0.00099013 0.00808229 0.00272779 -0.00516481 -0.00438379 0.00211506 0.0043245 0.000258647 -0.00320508 -0.0016036 0.0017228 0.00196515 -0.000417843 -0.0016399 -0.000421897 0.00100453 0.000753515 -0.000377215 -0.000701785 -5.62221e-05 0.000457369 0.000249296 -0.000190355 -0.000254236 2.5928e-06 0.000163972 7.91252e-05 -6.16908e-05 -7.94455e-05 -1.98185e-06 5.52759e-05 4.98593e-05 1.84849e-05 -5.58793e-07 -3.21865e-06 -9.83477e-07 0</coefficients>
+    </responseFIR>
+    <network publicID="Network#20250826032752.897697.27422" code="VX">
+      <start>2012-06-01T03:28:28.0000Z</start>
+      <description>The VX network includes all stations deployed on a temporary basis, most commonly for aftershock studies.</description>
+      <station publicID="Station#20251124042554.166633.22927" code="WPM2Y">
+        <start>2021-09-23T10:00:00.0000Z</start>
+        <latitude>-37.35209</latitude>
+        <longitude>146.14951</longitude>
+        <elevation>337</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251124042957.318153.23260" code="00">
+          <start>2012-06-01T03:28:28.0000Z</start>
+          <latitude>-37.35209</latitude>
+          <longitude>146.14951</longitude>
+          <elevation>337</elevation>
+          <stream publicID="Stream#20251124045415.450464.7908" code="CHZ" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-23T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251124045419.610383.26109" code="CHN" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-23T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251124045421.365483.39651" code="CHE" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-23T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125104957.274302.20400" code="WPM3Y">
+        <start>2021-09-24T10:00:00.0000Z</start>
+        <latitude>-37.47613</latitude>
+        <longitude>146.40673</longitude>
+        <elevation>1173</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125104957.72653.29899" code="00">
+          <start>2021-09-24T00:00:00.0000Z</start>
+          <latitude>-37.47613</latitude>
+          <longitude>146.40673</longitude>
+          <elevation>1173</elevation>
+          <stream publicID="Stream#20251125104957.733648.25314" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>976293600</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125104957.733663.33349" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>976293600</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125104957.733673.58172" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>976293600</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125105555.824306.57557" code="WPM4Y">
+        <start>2021-09-24T00:00:00.0000Z</start>
+        <latitude>-37.42442</latitude>
+        <longitude>146.38144</longitude>
+        <elevation>1554</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125105556.177577.12197" code="00">
+          <start>2021-09-24T10:00:00.0000Z</start>
+          <latitude>-37.42442</latitude>
+          <longitude>146.38144</longitude>
+          <elevation>1554</elevation>
+          <stream publicID="Stream#20251125105556.186785.3924" code="CHE" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125105556.1868.22150" code="CHN" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125105556.186809.17508" code="CHZ" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125105911.087773.37679" code="WPM5Y">
+        <start>2021-09-25T00:00:00.0000Z</start>
+        <latitude>-37.42763</latitude>
+        <longitude>146.23708</longitude>
+        <elevation>386</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125105911.417001.50313" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.42763</latitude>
+          <longitude>146.23708</longitude>
+          <elevation>386</elevation>
+          <stream publicID="Stream#20251125105911.419586.24755" code="CHE" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125105911.419604.4643" code="CHN" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125105911.419618.41168" code="CHZ" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125110039.127312.27727" code="WPM6Y">
+        <start>2021-09-25T00:00:00.0000Z</start>
+        <latitude>-37.56824</latitude>
+        <longitude>146.24811</longitude>
+        <elevation>790</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125110039.539032.1876" code="00">
+          <start>2021-09-25T00:00:00.0000Z</start>
+          <latitude>-37.56824</latitude>
+          <longitude>146.24811</longitude>
+          <elevation>790</elevation>
+          <stream publicID="Stream#20251125110039.541604.53515" code="CHE" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125110039.541623.9919" code="CHN" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125110039.541636.30359" code="CHZ" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Nanometrics_TrilliumCompact20_LP20_SG753_STgroundVel">
+            <start>2021-09-25T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>631746068.48</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251125104855.622696.51706" code="WPM1Y">
+        <start>2021-09-24T10:00:00.0000Z</start>
+        <latitude>-37.54082</latitude>
+        <longitude>146.481995</longitude>
+        <elevation>1253</elevation>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20251125104856.070765.48010" code="00">
+          <start>2021-09-24T10:00:00.0000Z</start>
+          <latitude>-37.54082</latitude>
+          <longitude>146.40673</longitude>
+          <elevation>1253</elevation>
+          <stream publicID="Stream#20251125104856.079888.53598" code="CHE" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125104856.079903.9863" code="CHN" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251125104856.079912.32912" code="CHZ" datalogger="Datalogger#20250527123131.202676.64414" sensor="NRL/Sensor/Guralp_CMG-6T_LP1_HF100_SG2400_STgroundVel">
+            <start>2021-09-24T10:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2013265920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10" version="0.10">
+  <Inventory>
+    <sensor publicID="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel" name="sensor_IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel" response="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0">
+      <description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</description>
+      <model>S21g</model>
+      <manufacturer>IESE</manufacturer>
+      <unit>m/s</unit>
+      <remark>{"unit": "Velocity in Meters Per Second", "version": "2021-03-18", "parameters": {"Low-Frequency_Corner": "2.0 Hz", "Coil_Resistance": "3810", "Shunt_Resistance": "106661", "Sensitivity": "76.0 V/m/s", "Sensor_Type": "groundVel"}}</remark>
+    </sensor>
+    <datalogger publicID="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" name="datalogger_SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
+      <description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</description>
+      <digitizerModel>Gecko</digitizerModel>
+      <digitizerManufacturer>SeismologyResearchCentre</digitizerManufacturer>
+      <recorderModel>Gecko</recorderModel>
+      <recorderManufacturer>SeismologyResearchCentre</recorderManufacturer>
+      <gain>406789</gain>
+      <remark>{"version": "2021-11-03T07:00:00", "parameters": {"Preamp_Gain": "1", "Serial_Number": "from2000225", "Final_Sample_Rate": "250 Hz"}}</remark>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" name="datalogger_SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+      <description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</description>
+      <digitizerModel>Gecko</digitizerModel>
+      <digitizerManufacturer>SeismologyResearchCentre</digitizerManufacturer>
+      <recorderModel>Gecko</recorderModel>
+      <recorderManufacturer>SeismologyResearchCentre</recorderManufacturer>
+      <gain>419430</gain>
+      <remark>{"version": "2025-09-08", "parameters": {"Preamp_Gain": "8", "Serial_Number": "all", "Final_Sample_Rate": "250 Hz"}}</remark>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <analogueFilterChain>NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0</analogueFilterChain>
+        <digitalFilterChain>NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/1 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/2 NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/3</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0" name="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0">
+      <type>A</type>
+      <gain>78.7</gain>
+      <gainFrequency>15</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>15</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-8.8857,-8.8857) (-8.8857,8.8857)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0" name="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0">
+      <type>A</type>
+      <gain>8</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>0</numberOfPoles>
+    </responsePAZ>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>5</delay>
+      <correction>5</correction>
+      <numberOfCoefficients>6</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.00585938 0 -0.0488281 0 0.292969 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/1">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>7</delay>
+      <correction>7</correction>
+      <numberOfCoefficients>8</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-0.00130463 0 0.0123748 0 -0.0605468 0 0.299477 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/2">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>4</decimationFactor>
+      <delay>25.5</delay>
+      <correction>25.5</correction>
+      <numberOfCoefficients>52</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>0 0 -5.43892e-07 -6.51181e-06 -3.46303e-05 -0.000120304 -0.00030756 -0.000603005 -0.000894547 -0.000884309 -0.000135623 0.00167453 0.0043228 0.00665533 0.00664142 0.00218748 -0.00735561 -0.0196381 -0.0287616 -0.0266173 -0.00612865 0.0347872 0.0905521 0.148349 0.192071 0.208369 0.192071 0.148349 0.0905521 0.0347872 -0.00612865 -0.0266173 -0.0287616 -0.0196381 -0.00735561 0.00218748 0.00664142 0.00665533 0.0043228 0.00167453 -0.000135623 -0.000884309 -0.000894547 -0.000603005 -0.00030756 -0.000120304 -3.46303e-05 -6.51181e-06 -5.43892e-07 0 0 0</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/3">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>54.5</delay>
+      <correction>54.5</correction>
+      <numberOfCoefficients>110</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-9.83477e-07 -3.21865e-06 -5.58793e-07 1.84849e-05 4.98593e-05 5.52759e-05 -1.98185e-06 -7.94455e-05 -6.16908e-05 7.91252e-05 0.000163972 2.5928e-06 -0.000254236 -0.000190355 0.000249296 0.000457369 -5.62221e-05 -0.000701785 -0.000377215 0.000753515 0.00100453 -0.000421897 -0.0016399 -0.000417843 0.00196515 0.0017228 -0.0016036 -0.00320508 0.000258647 0.0043245 0.00211506 -0.00438379 -0.00516481 0.00272779 0.00808229 0.00099013 -0.0096864 -0.00654639 0.00865898 0.0129757 -0.00389317 -0.0185549 -0.00513304 0.0209491 0.0180713 -0.0174202 -0.0336104 0.00477996 0.0496338 0.0219853 -0.0636135 -0.078509 0.0731534 0.30865 0.423459 0.30865 0.0731534 -0.078509 -0.0636135 0.0219853 0.0496338 0.00477996 -0.0336104 -0.0174202 0.0180713 0.0209491 -0.00513304 -0.0185549 -0.00389317 0.0129757 0.00865898 -0.00654639 -0.0096864 0.00099013 0.00808229 0.00272779 -0.00516481 -0.00438379 0.00211506 0.0043245 0.000258647 -0.00320508 -0.0016036 0.0017228 0.00196515 -0.000417843 -0.0016399 -0.000421897 0.00100453 0.000753515 -0.000377215 -0.000701785 -5.62221e-05 0.000457369 0.000249296 -0.000190355 -0.000254236 2.5928e-06 0.000163972 7.91252e-05 -6.16908e-05 -7.94455e-05 -1.98185e-06 5.52759e-05 4.98593e-05 1.84849e-05 -5.58793e-07 -3.21865e-06 -9.83477e-07 0</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>5</delay>
+      <correction>5</correction>
+      <numberOfCoefficients>6</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.005859375 0 -0.04882813 0 0.2929688 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/1" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/1">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>7</delay>
+      <correction>7</correction>
+      <numberOfCoefficients>8</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-0.001304626 0 0.01237476 0 -0.06054676 0 0.2994766 0.5</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/2" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/2">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>4</decimationFactor>
+      <delay>25.5</delay>
+      <correction>25.5</correction>
+      <numberOfCoefficients>52</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>0 0 -5.4396e-07 -6.512617e-06 -3.46346e-05 -0.0001203195 -0.0003075982 -0.0006030802 -0.0008946577 -0.0008844193 -0.0001356398 0.001674734 0.004323334 0.006656155 0.006642243 0.002187747 -0.007356522 -0.01964052 -0.02876521 -0.0266206 -0.006129408 0.03479149 0.09056336 0.1483677 0.1920953 0.2083953 0.1920953 0.1483677 0.09056336 0.03479149 -0.006129408 -0.0266206 -0.02876521 -0.01964052 -0.007356522 0.002187747 0.006642243 0.006656155 0.004323334 0.001674734 -0.0001356398 -0.0008844193 -0.0008946577 -0.0006030802 -0.0003075982 -0.0001203195 -3.46346e-05 -6.512617e-06 -5.4396e-07 0 0 0</coefficients>
+    </responseFIR>
+    <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/3" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/3">
+      <gain>1</gain>
+      <gainFrequency>0</gainFrequency>
+      <decimationFactor>2</decimationFactor>
+      <delay>54.5</delay>
+      <correction>54.5</correction>
+      <numberOfCoefficients>110</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-9.833262e-07 -3.218158e-06 -5.587081e-07 1.848206e-05 4.985166e-05 5.52674e-05 -1.981551e-06 -7.943339e-05 -6.168137e-05 7.911306e-05 0.0001639473 2.592405e-06 -0.0002541973 -0.0001903258 0.0002492583 0.0004572988 -5.621348e-05 -0.0007016777 -0.0003771577 0.0007533992 0.001004378 -0.000421832 -0.001639652 -0.0004177795 0.00196485 0.001722542 -0.001603351 -0.003204585 0.0002586073 0.004323834 0.002114732 -0.004383117 -0.005164019 0.002727374 0.008081049 0.0009899785 -0.009684921 -0.006545391 0.008657658 0.01297369 -0.003892579 -0.01855205 -0.005132255 0.02094588 0.01806857 -0.0174175 -0.03360529 0.004779226 0.04962616 0.02198189 -0.06360375 -0.07849698 0.07314216 0.3086033 0.4233947 0.3086033 0.07314216 -0.07849698 -0.06360375 0.02198189 0.04962616 0.004779226 -0.03360529 -0.0174175 0.01806857 0.02094588 -0.005132255 -0.01855205 -0.003892579 0.01297369 0.008657658 -0.006545391 -0.009684921 0.0009899785 0.008081049 0.002727374 -0.005164019 -0.004383117 0.002114732 0.004323834 0.0002586073 -0.003204585 -0.001603351 0.001722542 0.00196485 -0.0004177795 -0.001639652 -0.000421832 0.001004378 0.0007533992 -0.0003771577 -0.0007016777 -5.621348e-05 0.0004572988 0.0002492583 -0.0001903258 -0.0002541973 2.592405e-06 0.0001639473 7.911306e-05 -6.168137e-05 -7.943339e-05 -1.981551e-06 5.52674e-05 4.985166e-05 1.848206e-05 -5.587081e-07 -3.218158e-06 -9.833262e-07 0</coefficients>
+    </responseFIR>
+    <network publicID="Network#20250920061251.136985.47492" code="Z1">
+      <start>2025-09-11T06:14:49.0000Z</start>
+      <description>Network of borehole geophones, tiltmeters as well additional surface nodal seismometers installed to assist in monitoring the Otway Stage 4 field program.</description>
+      <institutions>University of Melbourne, AuScope, CO2CRC LTD</institutions>
+      <restricted>true</restricted>
+      <station publicID="Station#20251003003254.029019.62061" code="BGT3">
+        <start>2025-09-30T00:00:00.0000Z</start>
+        <latitude>-38.5301966</latitude>
+        <longitude>142.8060834</longitude>
+        <elevation>45</elevation>
+        <restricted>true</restricted>
+        <sensorLocation publicID="SensorLocation#20251003003254.70964.42903" code="00">
+          <start>2025-09-30T00:00:00.0000Z</start>
+          <latitude>-38.529314</latitude>
+          <longitude>142.810233</longitude>
+          <elevation>44</elevation>
+          <stream publicID="Stream#20251003003254.717585.16156" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003254.717604.24478" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003254.717618.51422" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20250920061557.383587.4183" code="BGB4">
+        <start>2025-09-11T06:14:49.0000Z</start>
+        <latitude>-38.5283901</latitude>
+        <longitude>142.8063612</longitude>
+        <elevation>45</elevation>
+        <restricted>true</restricted>
+        <sensorLocation publicID="SensorLocation#20250920061745.720545.15819" code="00">
+          <start>2025-09-11T06:14:49.0000Z</start>
+          <latitude>-38.529314</latitude>
+          <longitude>142.810233</longitude>
+          <elevation>44</elevation>
+          <stream publicID="Stream#20250920062318.450722.52443" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-11T06:14:49.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20250920062321.309899.15149" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-11T06:14:49.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20250920062322.029052.11209" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-11T06:14:49.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251003003339.713942.27997" code="BGT2">
+        <start>2025-09-29T00:00:00.0000Z</start>
+        <latitude>-38.5276102</latitude>
+        <longitude>142.8002499</longitude>
+        <elevation>45</elevation>
+        <restricted>true</restricted>
+        <sensorLocation publicID="SensorLocation#20251003003340.067774.38946" code="00">
+          <start>2025-09-30T00:00:00.0000Z</start>
+          <latitude>-38.529314</latitude>
+          <longitude>142.810233</longitude>
+          <elevation>44</elevation>
+          <stream publicID="Stream#20251003003340.070501.28993" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003340.070515.18253" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003340.070524.16368" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251003003421.245378.55996" code="BGT4">
+        <start>2025-09-29T00:00:00.0000Z</start>
+        <latitude>-38.5264176</latitude>
+        <longitude>142.8068889</longitude>
+        <elevation>45</elevation>
+        <restricted>true</restricted>
+        <sensorLocation publicID="SensorLocation#20251003003421.901349.46022" code="00">
+          <start>2025-09-30T00:00:00.0000Z</start>
+          <latitude>-38.529314</latitude>
+          <longitude>142.810233</longitude>
+          <elevation>44</elevation>
+          <stream publicID="Stream#20251003003421.903743.59544" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <end>2025-11-26T00:00:00.0000Z</end>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>32014294.3</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003421.903731.47448" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <end>2025-11-26T00:00:00.0000Z</end>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>32014294.3</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251003003421.903752.26308" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <end>2025-11-26T00:00:00.0000Z</end>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>32014294.3</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251201022526.261301.42906" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-11-26T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251201022623.527338.54182" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-11-26T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251201022627.127355.4454" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-11-26T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>25</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20251201021026.822387.8203" code="BGT1">
+        <start>2025-09-29T00:00:00.0000Z</start>
+        <latitude>-38.5293762</latitude>
+        <longitude>142.8101954</longitude>
+        <elevation>45</elevation>
+        <restricted>true</restricted>
+        <sensorLocation publicID="SensorLocation#20251201021027.187495.47146" code="00">
+          <start>2025-09-30T00:00:00.0000Z</start>
+          <latitude>-38.5293762</latitude>
+          <longitude>142.8101954</longitude>
+          <stream publicID="Stream#20251201021027.191525.12603" code="CHE" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251201021027.191535.6777" code="CHN" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+          <stream publicID="Stream#20251201021027.191541.55081" code="CHZ" datalogger="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250" sensor="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+            <start>2025-09-30T00:00:00.0000Z</start>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>100</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>264073128</gain>
+            <gainFrequency>15</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>
