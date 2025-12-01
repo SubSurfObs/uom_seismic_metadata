@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.13" version="0.13">
+  <Inventory>
+    <network publicID="NET/OZ/20251201035112.690145.278" code="OZ">
+      <start>1976-01-01T00:00:00.0000Z</start>
+      <shared>true</shared>
+      <comment>
+        <text>{"id":1,"value":"Seismology Research Centre, Melbourne, Australia"}</text>
+        <id>FDSNXML:Comment/1</id>
+        <start>1976-01-01T00:00:00.0000Z</start>
+        <creationInfo>
+          <agencyID>SRC</agencyID>
+          <author>Adam Pascale</author>
+          <authorURI>quake@src.com.au</authorURI>
+        </creationInfo>
+      </comment>
+      <comment>
+        <text>{"agency":"SRC","contact":[{}]}</text>
+        <id>FDSNXML:Operator/0</id>
+      </comment>
+      <station publicID="STA/OZ/HKER/20251201035112.690612.282" code="HKER">
+        <start>2000-11-02T00:00:00.0000Z</start>
+        <description>Hawker</description>
+        <latitude>-31.7642</latitude>
+        <longitude>138.55251</longitude>
+        <elevation>321</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/LEAH/20251201035112.690767.284" code="LEAH">
+        <start>2003-07-15T00:00:00.0000Z</start>
+        <description>Tarraleah</description>
+        <latitude>-42.30272</latitude>
+        <longitude>146.45163</longitude>
+        <elevation>600</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000394"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/DROM/20251201035112.690854.286" code="DROM">
+        <start>2003-01-25T00:00:00.0000Z</start>
+        <description>Dromana</description>
+        <latitude>-38.34814</latitude>
+        <longitude>144.95979</longitude>
+        <elevation>151</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/KORUM/20251201035112.690938.288" code="KORUM">
+        <start>2009-03-15T00:00:00.0000Z</start>
+        <description>Korumburra</description>
+        <latitude>-38.40644</latitude>
+        <longitude>145.85085</longitude>
+        <elevation>354</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/CCRM/20251201035112.691013.290" code="CCRM">
+        <start>1989-05-02T00:00:00.0000Z</start>
+        <description>Cairn Curren</description>
+        <latitude>-36.98907</latitude>
+        <longitude>143.97353</longitude>
+        <elevation>230</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000266"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/AWOON/20251201035112.691089.292" code="AWOON">
+        <start>2008-07-02T00:00:00.0000Z</start>
+        <description>Awoonga Dam Quarry</description>
+        <latitude>-24.07732</latitude>
+        <longitude>151.31468</longitude>
+        <elevation>92</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000384"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GLADS/20251201035112.691164.294" code="GLADS">
+        <start>2008-07-01T00:00:00.0000Z</start>
+        <description>Gladstone</description>
+        <latitude>-23.86989</latitude>
+        <longitude>151.26808</longitude>
+        <elevation>118</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000387"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/CETH/20251201035112.691238.296" code="CETH">
+        <start>2010-04-15T00:00:00.0000Z</start>
+        <description>Cethana</description>
+        <latitude>-41.47972</latitude>
+        <longitude>146.13287</longitude>
+        <elevation>220</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000395"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/JEER/20251201035112.691312.298" code="JEER">
+        <start>2015-10-15T00:00:00.0000Z</start>
+        <description>Jeeralang Junction</description>
+        <latitude>-38.3476</latitude>
+        <longitude>146.41696</longitude>
+        <elevation>236</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000288"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/HML1/20251201035112.69139.300" code="HML1">
+        <start>2007-03-28T00:00:00.0000Z</start>
+        <description>Hamley Bridge</description>
+        <latitude>-34.40335</latitude>
+        <longitude>138.58887</longitude>
+        <elevation>73</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GOOGA/20251201035112.691611.302" code="GOOGA">
+        <start>2021-02-23T00:00:00.0000Z</start>
+        <description>Googong Dam Accelerograph</description>
+        <latitude>-35.42312</latitude>
+        <longitude>149.25754</longitude>
+        <elevation>738</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000586"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/DTMM/20251201035112.691704.304" code="DTMM">
+        <start>1989-06-08T00:00:00.0000Z</start>
+        <description>Dartmouth Reg Dam</description>
+        <latitude>-36.52813</latitude>
+        <longitude>147.46539</longitude>
+        <elevation>432</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"01000109"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/MLWM/20251201035112.691783.306" code="MLWM">
+        <start>1985-06-19T00:00:00.0000Z</start>
+        <description>Molesworth</description>
+        <latitude>-37.13624</latitude>
+        <longitude>145.51147</longitude>
+        <elevation>280</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000947"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GRASY/20251201035112.691859.308" code="GRASY">
+        <start>2018-08-02T00:00:00.0000Z</start>
+        <description>Grassy, King Island</description>
+        <latitude>-40.08652</latitude>
+        <longitude>144.01093</longitude>
+        <elevation>67</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"01234567"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/UTT/20251201035112.691935.310" code="UTT">
+        <start>1993-07-01T00:00:00.0000Z</start>
+        <description>Tea Tree Gully</description>
+        <latitude>-34.8215</latitude>
+        <longitude>138.73669</longitude>
+        <elevation>300</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/POAT/20251201035112.69201.312" code="POAT">
+        <start>2003-07-15T00:00:00.0000Z</start>
+        <description>Poatina</description>
+        <latitude>-41.81715</latitude>
+        <longitude>146.90329</longitude>
+        <elevation>851</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000393"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/EASTN/20251201035112.692086.314" code="EASTN">
+        <start>2008-07-01T00:00:00.0000Z</start>
+        <description>East End</description>
+        <latitude>-23.86409</latitude>
+        <longitude>150.96468</longitude>
+        <elevation>139</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000407"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/CLV2/20251201035112.692165.316" code="CLV2">
+        <start>2014-08-26T00:00:00.0000Z</start>
+        <description>Cleve</description>
+        <latitude>-33.6823</latitude>
+        <longitude>136.51691</longitude>
+        <elevation>236</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/HBART/20251201035112.692242.318" code="HBART">
+        <start>2019-01-30T00:00:00.0000Z</start>
+        <description>Hobart</description>
+        <latitude>-42.84291</latitude>
+        <longitude>147.34872</longitude>
+        <elevation>88</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000207"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/BUCHN/20251201035112.692317.320" code="BUCHN">
+        <start>2018-02-08T00:00:00.0000Z</start>
+        <description>Buchan</description>
+        <latitude>-37.52916</latitude>
+        <longitude>148.0961</longitude>
+        <elevation>260</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000791"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GOOG/20251201035112.692393.322" code="GOOG">
+        <start>2009-09-01T00:00:00.0000Z</start>
+        <description>Googong</description>
+        <latitude>-35.42313</latitude>
+        <longitude>149.25749</longitude>
+        <elevation>725</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000585"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GLMM/20251201035112.692486.324" code="GLMM">
+        <start>1999-02-12T00:00:00.0000Z</start>
+        <description>Glenmaggie Dam</description>
+        <latitude>-37.90266</latitude>
+        <longitude>146.79897</longitude>
+        <elevation>113</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000231"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/FRTM/20251201035112.692566.326" code="FRTM">
+        <start>1981-10-24T00:00:00.0000Z</start>
+        <description>Forrest</description>
+        <latitude>-38.53194</latitude>
+        <longitude>143.71765</longitude>
+        <elevation>247</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/HOPM/20251201035112.692642.328" code="HOPM">
+        <start>1983-07-05T00:00:00.0000Z</start>
+        <description>Mt Hope</description>
+        <latitude>-35.99473</latitude>
+        <longitude>144.20587</longitude>
+        <elevation>135</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000181"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/ROBE/20251201035112.692718.330" code="ROBE">
+        <start>2012-12-11T00:00:00.0000Z</start>
+        <description>Robe</description>
+        <latitude>-37.1472</latitude>
+        <longitude>139.87424</longitude>
+        <elevation>10</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/MARG/20251201035112.692793.332" code="MARG">
+        <start>2003-07-15T00:00:00.0000Z</start>
+        <description>Lake Margaret</description>
+        <latitude>-41.99952</latitude>
+        <longitude>145.55162</longitude>
+        <elevation>700</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000391"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/GOGM/20251201035112.692869.334" code="GOGM">
+        <start>1989-07-19T00:00:00.0000Z</start>
+        <description>Grampians</description>
+        <latitude>-36.88672</latitude>
+        <longitude>142.40099</longitude>
+        <elevation>279</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000208"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/MILD/20251201035112.692945.336" code="MILD">
+        <start>2013-09-25T00:00:00.0000Z</start>
+        <description>Mildura</description>
+        <latitude>-34.25915</latitude>
+        <longitude>142.05571</longitude>
+        <elevation>54</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/COTT/20251201035112.693021.338" code="COTT">
+        <start>2009-09-01T00:00:00.0000Z</start>
+        <description>Cotter Dam</description>
+        <latitude>-35.32228</latitude>
+        <longitude>148.9463</longitude>
+        <elevation>535</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000584"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/ROWM/20251201035112.693097.340" code="ROWM">
+        <start>1999-01-29T00:00:00.0000Z</start>
+        <description>Rowsley</description>
+        <latitude>-37.80614</latitude>
+        <longitude>144.29176</longitude>
+        <elevation>374</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000940"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/WAMB/20251201035112.693173.342" code="WAMB">
+        <start>2003-01-01T00:00:00.0000Z</start>
+        <description>Wambrook</description>
+        <latitude>-36.1912</latitude>
+        <longitude>148.88293</longitude>
+        <elevation>1342</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000382"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/TOT/20251201035112.693249.344" code="TOT">
+        <start>1990-12-12T00:00:00.0000Z</start>
+        <description>Thomson Abutment Tower</description>
+        <latitude>-37.82313</latitude>
+        <longitude>146.40738</longitude>
+        <elevation>708</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000946"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/WALR/20251201035112.693325.346" code="WALR">
+        <start>2018-07-20T00:00:00.0000Z</start>
+        <description>Wallaroo</description>
+        <latitude>-33.9598</latitude>
+        <longitude>137.6221</longitude>
+        <elevation>17</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/BOGA/20251201035112.693404.348" code="BOGA">
+        <start>2014-05-15T00:00:00.0000Z</start>
+        <description>Lake Boga</description>
+        <latitude>-35.547</latitude>
+        <longitude>143.57532</longitude>
+        <elevation>96</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02000205"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/WILL/20251201035112.693497.350" code="WILL">
+        <start>2000-07-26T00:00:00.0000Z</start>
+        <description>Willung South</description>
+        <latitude>-38.3406</latitude>
+        <longitude>146.73599</longitude>
+        <elevation>428</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02001162"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/SRCHQ/20251201035112.693576.352" code="SRCHQ">
+        <start>2018-11-22T00:00:00.0000Z</start>
+        <description>SRC 141 Palmer St Richmond</description>
+        <latitude>-37.81905</latitude>
+        <longitude>145.01112</longitude>
+        <elevation>20</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/WILM/20251201035112.693653.354" code="WILM">
+        <start>2021-10-06T00:00:00.0000Z</start>
+        <description>Wilmington</description>
+        <latitude>-32.66918</latitude>
+        <longitude>138.15672</longitude>
+        <elevation>294</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/WORN/20251201035112.69373.356" code="WORN">
+        <start>2014-05-13T00:00:00.0000Z</start>
+        <description>Woorndoo</description>
+        <latitude>-37.9017</latitude>
+        <longitude>142.786</longitude>
+        <elevation>236</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"02001161"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/MRAT/20251201035112.693806.358" code="MRAT">
+        <start>2007-03-06T00:00:00.0000Z</start>
+        <description>Mount Rat</description>
+        <latitude>-34.62973</latitude>
+        <longitude>137.6256</longitude>
+        <elevation>112</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Unknown"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/CDNM/20251201035112.693883.360" code="CDNM">
+        <start>1996-04-01T00:00:00.0000Z</start>
+        <description>Cardinia Reservoir</description>
+        <latitude>-37.94652</latitude>
+        <longitude>145.42525</longitude>
+        <elevation>244</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/CURRY/20251201035112.693959.362" code="CURRY">
+        <start>2016-12-18T00:00:00.0000Z</start>
+        <description>Curries River</description>
+        <latitude>-41.09589</latitude>
+        <longitude>146.95012</longitude>
+        <elevation>106</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"7th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Gecko","serialNumber":"0100010b"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/TPSO/20251201035112.694047.364" code="TPSO">
+        <start>2018-04-28T00:00:00.0000Z</start>
+        <description>Victor Harbor</description>
+        <latitude>-35.4894</latitude>
+        <longitude>138.63725</longitude>
+        <elevation>74</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+      <station publicID="STA/OZ/MR2A/20251201035112.694126.366" code="MR2A">
+        <start>1996-01-01T00:00:00.0000Z</start>
+        <description>Murray 2 Downstream</description>
+        <latitude>-36.2392</latitude>
+        <longitude>148.1806</longitude>
+        <elevation>595</elevation>
+        <shared>true</shared>
+        <comment>
+          <text>{"type":"Seismograph","description":"6th Generation Kelunji Seismic Data Logger","manufacturer":"Seismology Research Centre","model":"Echo Pro"}</text>
+          <id>FDSNXML:Equipment/0</id>
+        </comment>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

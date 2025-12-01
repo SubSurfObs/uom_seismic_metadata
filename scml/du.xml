@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.13" version="0.13">
+  <Inventory>
+    <sensor publicID="Sensor/20251201035123.062536.7" name="DU.NNP2.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.063917.14" name="DU.DAMM.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.066079.21" name="DU.PLYP.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.066642.28" name="DU.S88P.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.067174.35" name="DU.KBRI.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.067743.42" name="DU.OAT.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.067769.43">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.068541.49" name="DU.NNP1.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.06907.56" name="DU.BRON.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.069096.57">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.070063.63" name="DU.LGMA.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.070092.64">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.073408.70" name="DU.BAMB.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.073931.77" name="DU.ABRY.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.073953.78">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.074663.84" name="DU.PENW.60SHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.074688.85">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.075726.91" name="DU.NSTM.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.075751.92">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.076879.98" name="DU.WEPH.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.076902.99">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.078026.105" name="DU.RNDA.60HHE.1902.001.00.00.00" response="ResponsePAZ/20251201035123.078056.106">
+      <unit>M/S</unit>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.078533.109" name="DU.RNDA.60HHN.1902.001.00.00.00" response="ResponsePAZ/20251201035123.078056.106">
+      <unit>M/S</unit>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.078901.113" name="DU.RNDA.60HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.078056.106">
+      <unit>M/S</unit>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.079344.118" name="DU.RNDA.ABHNE.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.079826.122" name="DU.RNDA.ABHNN.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.080179.126" name="DU.RNDA.ABHNZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.08067.132" name="DU.WKA.60SHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.080692.133">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.081197.139" name="DU.DJO.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.081219.140">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.081783.146" name="DU.KENT.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.081806.147">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.082518.153" name="DU.HKER.60SHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.082541.154">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.083127.160" name="DU.HELEN.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.08315.161">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.083762.167" name="DU.LEU.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.083784.168">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.084501.174" name="DU.PFLO.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.062586.8">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.084987.181" name="DU.USYD.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.085009.182">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.085817.188" name="DU.HML1.60SHE.1902.001.00.00.00" response="ResponsePAZ/20251201035123.085846.189">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.086291.192" name="DU.HML1.60SHN.1902.001.00.00.00" response="ResponsePAZ/20251201035123.085846.189">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.086683.196" name="DU.HML1.60SHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.085846.189">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in Meters Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.087148.201" name="DU.HML1.ABHNE.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.087541.205" name="DU.HML1.ABHNN.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.087906.209" name="DU.HML1.ABHNZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.079373.119">
+      <unit>M/S</unit>
+      <remark>{"unit":"Acceleration in Meters Per Second Per Second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.088353.215" name="DU.ERIKA.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.088375.216">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.089106.222" name="DU.ALEX.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.089128.223">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.089775.229" name="DU.HAZO.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.089798.230">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.090527.236" name="DU.WAH.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.09055.237">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <sensor publicID="Sensor/20251201035123.091143.243" name="DU.CLIL.00HHZ.1902.001.00.00.00" response="ResponsePAZ/20251201035123.091165.244">
+      <unit>M/S</unit>
+      <remark>{"unit":"Velocity in meters per second"}</remark>
+    </sensor>
+    <datalogger publicID="Datalogger/20251201035123.062315.6" name="DU.NNP2.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.063849.13" name="DU.DAMM.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.066015.20" name="DU.PLYP.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.06658.27" name="DU.S88P.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.06711.34" name="DU.KBRI.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.067681.41" name="DU.OAT.00HHZ.1902.001.00.00.00">
+      <gain>1582000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.067963.44</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.068478.48" name="DU.NNP1.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.069009.55" name="DU.BRON.00HHZ.1902.001.00.00.00">
+      <gain>1565000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.069329.58</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.069998.62" name="DU.LGMA.00HHZ.1902.001.00.00.00">
+      <gain>1573000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.070294.65</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.073349.69" name="DU.BAMB.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.073876.76" name="DU.ABRY.00HHZ.1902.001.00.00.00">
+      <gain>1568500</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.074055.79</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.074439.83" name="DU.PENW.60SHZ.1902.001.00.00.00">
+      <gain>838860.8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.074789.86</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.075661.90" name="DU.NSTM.00HHZ.1902.001.00.00.00">
+      <gain>1573000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.070294.65</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.076819.97" name="DU.WEPH.00HHZ.1902.001.00.00.00">
+      <gain>1580000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.077091.100</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.077726.104" name="DU.RNDA.60HHE.1902.001.00.00.00">
+      <gain>8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.078391.108" name="DU.RNDA.60HHN.1902.001.00.00.00">
+      <gain>8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.078774.112" name="DU.RNDA.60HHZ.1902.001.00.00.00">
+      <gain>8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.079221.117" name="DU.RNDA.ABHNE.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.079703.121" name="DU.RNDA.ABHNN.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.080062.125" name="DU.RNDA.ABHNZ.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.080616.131" name="DU.WKA.60SHZ.1902.001.00.00.00">
+      <gain>838860.8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.074789.86</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.081143.138" name="DU.DJO.00HHZ.1902.001.00.00.00">
+      <gain>1567500</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.081315.141</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.081728.145" name="DU.KENT.00HHZ.1902.001.00.00.00">
+      <gain>1576000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.08199.148</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.082461.152" name="DU.HKER.60SHZ.1902.001.00.00.00">
+      <gain>838860.8</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.074789.86</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.083073.159" name="DU.HELEN.00HHZ.1902.001.00.00.00">
+      <gain>1582000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.067963.44</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.083707.166" name="DU.LEU.00HHZ.1902.001.00.00.00">
+      <gain>1570500</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.083969.169</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.084432.173" name="DU.PFLO.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.084933.180" name="DU.USYD.00HHZ.1902.001.00.00.00">
+      <gain>1570000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.085189.183</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.085688.187" name="DU.HML1.60SHE.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.086167.191" name="DU.HML1.60SHN.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.086557.195" name="DU.HML1.60SHZ.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.08702.200" name="DU.HML1.ABHNE.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.087397.204" name="DU.HML1.ABHNN.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.087783.208" name="DU.HML1.ABHNZ.1902.001.00.00.00">
+      <gain>4e-07</gain>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.088298.214" name="DU.ERIKA.00HHZ.1902.001.00.00.00">
+      <gain>1577000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.088573.217</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.089051.221" name="DU.ALEX.00HHZ.1902.001.00.00.00">
+      <gain>1577000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.088573.217</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.089715.228" name="DU.HAZO.00HHZ.1902.001.00.00.00">
+      <gain>1572000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.089989.231</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.090469.235" name="DU.WAH.00HHZ.1902.001.00.00.00">
+      <gain>1574000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.06312.9</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20251201035123.091088.242" name="DU.CLIL.00HHZ.1902.001.00.00.00">
+      <gain>1726000</gain>
+      <decimation sampleRateNumerator="200" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR/20251201035123.091351.245</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.062586.8" name="ResponsePAZ/20251201035123.062586.8">
+      <type>A</type>
+      <gain>143.08</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.8262234342214592</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.254721762609729,4.843069837702089) (-4.254721762609729,-4.843069837702089)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.067769.43" name="ResponsePAZ/20251201035123.067769.43">
+      <type>A</type>
+      <gain>143.09</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.9534080622374754</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.560964214481661,4.653114214695135) (-4.560964214481661,-4.653114214695135)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.069096.57" name="ResponsePAZ/20251201035123.069096.57">
+      <type>A</type>
+      <gain>115.81</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.0853511035647787</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.586411114975739,5.362108764226317) (-4.586411114975739,-5.362108764226317)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.070092.64" name="ResponsePAZ/20251201035123.070092.64">
+      <type>A</type>
+      <gain>185.73</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.3531315417528753</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.94612347381177,5.690763036015722) (-4.94612347381177,-5.690763036015722)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.073953.78" name="ResponsePAZ/20251201035123.073953.78">
+      <type>A</type>
+      <gain>113.58</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>3.407420921241605</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.787473044805486,8.517036020414453) (-4.787473044805486,-8.517036020414453)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.074688.85" name="ResponsePAZ/20251201035123.074688.85">
+      <type>A</type>
+      <gain>364</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.8261223123060015</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.2082261913366,4.999068793627634) (-4.2082261913366,-4.999068793627634)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.075751.92" name="ResponsePAZ/20251201035123.075751.92">
+      <type>A</type>
+      <gain>145.17</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.9946377032237683</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.595521733671149,4.820698083847621) (-4.595521733671149,-4.820698083847621)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.076902.99" name="ResponsePAZ/20251201035123.076902.99">
+      <type>A</type>
+      <gain>136.48</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.824793639409734</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.194151856248517,5.035439138666035) (-4.194151856248517,-5.035439138666035)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.078056.106" name="ResponsePAZ/20251201035123.078056.106">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.443,4.443) (-4.443,-4.443)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.079373.119" name="ResponsePAZ/20251201035123.079373.119">
+      <type>A</type>
+      <gain>0.254929</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>3022020000000</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros/>
+      <poles>(-400.8,-567.87) (-400.8,567.87) (-1317.3,0) (-4748.4,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.080692.133" name="ResponsePAZ/20251201035123.080692.133">
+      <type>A</type>
+      <gain>214</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.0816669849848943</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.187114688704477,6.19463136539744) (-4.187114688704477,-6.19463136539744)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.081219.140" name="ResponsePAZ/20251201035123.081219.140">
+      <type>A</type>
+      <gain>113.55</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>3.224974531831063</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.4221058191929936,8.535807395548462) (-4.4221058191929936,-8.535807395548462)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.081806.147" name="ResponsePAZ/20251201035123.081806.147">
+      <type>A</type>
+      <gain>119.58</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.1920693606051906</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.980806656707401,4.800764766880264) (-4.980806656707401,-4.800764766880264)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.082541.154" name="ResponsePAZ/20251201035123.082541.154">
+      <type>A</type>
+      <gain>180000</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.6153501713662135</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-3.7699111843077517,5.026548245743669) (-3.7699111843077517,-5.026548245743669)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.08315.161" name="ResponsePAZ/20251201035123.08315.161">
+      <type>A</type>
+      <gain>165.85</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.9946377032237683</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.595521733671149,4.820698083847621) (-4.595521733671149,-4.820698083847621)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.083784.168" name="ResponsePAZ/20251201035123.083784.168">
+      <type>A</type>
+      <gain>165.58</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.064382784274215</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.759952693160039,4.721079806447437) (-4.759952693160039,-4.721079806447437)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.085009.182" name="ResponsePAZ/20251201035123.085009.182">
+      <type>A</type>
+      <gain>156.29</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.3402128571934817</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-5.115141158574901,5.218487783693773) (-5.115141158574901,-5.218487783693773)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.085846.189" name="ResponsePAZ/20251201035123.085846.189">
+      <type>A</type>
+      <gain>2000</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>911329000000</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>6</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.4422,-4.4422) (-4.4422,4.4422) (-391.96,-850.69) (-391.96,850.69) (-471.24,0) (-2199.1,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.088375.216" name="ResponsePAZ/20251201035123.088375.216">
+      <type>A</type>
+      <gain>174.35</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.0653721719368425</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.699571282358043,4.929845964991341) (-4.699571282358043,-4.929845964991341)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.089128.223" name="ResponsePAZ/20251201035123.089128.223">
+      <type>A</type>
+      <gain>176.11</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.841586975040651</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.3570748512636834,4.570567522893263) (-4.3570748512636834,-4.570567522893263)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.089798.230" name="ResponsePAZ/20251201035123.089798.230">
+      <type>A</type>
+      <gain>164.05</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>2.232636855157161</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-5.039617271182603,4.857449546144065) (-5.039617271182603,-4.857449546144065)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.09055.237" name="ResponsePAZ/20251201035123.09055.237">
+      <type>A</type>
+      <gain>144.5</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.997651534759909</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.657348277093797,4.619313325146322) (-4.657348277093797,-4.619313325146322)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20251201035123.091165.244" name="ResponsePAZ/20251201035123.091165.244">
+      <type>A</type>
+      <gain>187.29</gain>
+      <gainFrequency>5</gainFrequency>
+      <normalizationFactor>1.989989217981897</normalizationFactor>
+      <normalizationFrequency>5</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.42336245625443,5.310626128986232) (-4.42336245625443,-5.310626128986232)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR/20251201035123.06312.9" name="ResponseFIR/20251201035123.06312.9">
+      <gain>1574000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.067963.44" name="ResponseFIR/20251201035123.067963.44">
+      <gain>1582000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.069329.58" name="ResponseFIR/20251201035123.069329.58">
+      <gain>1565000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.070294.65" name="ResponseFIR/20251201035123.070294.65">
+      <gain>1573000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.074055.79" name="ResponseFIR/20251201035123.074055.79">
+      <gain>1568500</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.074789.86" name="ResponseFIR/20251201035123.074789.86">
+      <gain>838860.8</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.077091.100" name="ResponseFIR/20251201035123.077091.100">
+      <gain>1580000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.081315.141" name="ResponseFIR/20251201035123.081315.141">
+      <gain>1567500</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.08199.148" name="ResponseFIR/20251201035123.08199.148">
+      <gain>1576000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.083969.169" name="ResponseFIR/20251201035123.083969.169">
+      <gain>1570500</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.085189.183" name="ResponseFIR/20251201035123.085189.183">
+      <gain>1570000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.088573.217" name="ResponseFIR/20251201035123.088573.217">
+      <gain>1577000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.089989.231" name="ResponseFIR/20251201035123.089989.231">
+      <gain>1572000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR/20251201035123.091351.245" name="ResponseFIR/20251201035123.091351.245">
+      <gain>1726000</gain>
+      <gainFrequency>5</gainFrequency>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <network publicID="NET/DU/20251201035123.061311.1538" code="DU">
+      <start>1902-01-01T00:00:00.0000Z</start>
+      <shared>true</shared>
+      <station publicID="STA/DU/NNP2/20251201035123.061823.1539" code="NNP2">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Booth, Australian Capital Territory, Australia</description>
+        <latitude>-35.69172</latitude>
+        <longitude>149.00465</longitude>
+        <elevation>896</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/NNP2/00/20251201035123.061994.1540" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.69172</latitude>
+          <longitude>149.00465</longitude>
+          <elevation>896</elevation>
+          <stream publicID="Stream/20251201035123.062172.5" code="HHZ" datalogger="Datalogger/20251201035123.062315.6" sensor="Sensor/20251201035123.062536.7">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/DAMM/20251201035123.063585.1552" code="DAMM">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Macleod, Victoria, Australia</description>
+        <latitude>-37.73064</latitude>
+        <longitude>145.07881</longitude>
+        <elevation>10</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/DAMM/00/20251201035123.06368.1553" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-37.73064</latitude>
+          <longitude>145.07881</longitude>
+          <elevation>10</elevation>
+          <stream publicID="Stream/20251201035123.063739.12" code="HHZ" datalogger="Datalogger/20251201035123.063849.13" sensor="Sensor/20251201035123.063917.14">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/PLYP/20251201035123.065756.1560" code="PLYP">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Plympton Park, South Australia, Australia</description>
+        <latitude>-34.972802</latitude>
+        <longitude>138.552174</longitude>
+        <elevation>17</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/PLYP/00/20251201035123.065847.1561" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-34.972802</latitude>
+          <longitude>138.552174</longitude>
+          <elevation>17</elevation>
+          <stream publicID="Stream/20251201035123.065905.19" code="HHZ" datalogger="Datalogger/20251201035123.066015.20" sensor="Sensor/20251201035123.066079.21">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/S88P/20251201035123.066302.1568" code="S88P">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Sandon, Victoria, Australia</description>
+        <latitude>-37.1679</latitude>
+        <longitude>144.0517</longitude>
+        <elevation>304</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/S88P/00/20251201035123.066388.1569" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-37.1679</latitude>
+          <longitude>144.0517</longitude>
+          <elevation>304</elevation>
+          <stream publicID="Stream/20251201035123.066444.26" code="HHZ" datalogger="Datalogger/20251201035123.06658.27" sensor="Sensor/20251201035123.066642.28">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/KBRI/20251201035123.066861.1576" code="KBRI">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Brindabella, New South Wales, Australia</description>
+        <latitude>-35.46352</latitude>
+        <longitude>148.72336</longitude>
+        <elevation>705</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/KBRI/00/20251201035123.066948.1577" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.46352</latitude>
+          <longitude>148.72336</longitude>
+          <elevation>705</elevation>
+          <stream publicID="Stream/20251201035123.067004.33" code="HHZ" datalogger="Datalogger/20251201035123.06711.34" sensor="Sensor/20251201035123.067174.35">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/OAT/20251201035123.067411.1584" code="OAT">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Oatlands, New South Wales, Australia</description>
+        <latitude>-33.79048</latitude>
+        <longitude>151.0306</longitude>
+        <elevation>65</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/OAT/00/20251201035123.067515.1585" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.79048</latitude>
+          <longitude>151.0306</longitude>
+          <elevation>65</elevation>
+          <stream publicID="Stream/20251201035123.067573.40" code="HHZ" datalogger="Datalogger/20251201035123.067681.41" sensor="Sensor/20251201035123.067743.42">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>226368380</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/NNP1/20251201035123.068208.1597" code="NNP1">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Tharwa, Australian Capital Territory, Australia</description>
+        <latitude>-35.53129</latitude>
+        <longitude>149.06573</longitude>
+        <elevation>600</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/NNP1/00/20251201035123.068296.1598" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.53129</latitude>
+          <longitude>149.06573</longitude>
+          <elevation>600</elevation>
+          <stream publicID="Stream/20251201035123.068353.47" code="HHZ" datalogger="Datalogger/20251201035123.068478.48" sensor="Sensor/20251201035123.068541.49">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/BRON/20251201035123.06876.1605" code="BRON">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Bronte, New South Wales, Australia</description>
+        <latitude>-33.89891804</latitude>
+        <longitude>151.261644</longitude>
+        <elevation>65</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/BRON/00/20251201035123.068846.1606" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.89891804</latitude>
+          <longitude>151.261644</longitude>
+          <elevation>65</elevation>
+          <stream publicID="Stream/20251201035123.068902.54" code="HHZ" datalogger="Datalogger/20251201035123.069009.55" sensor="Sensor/20251201035123.06907.56">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>181242650</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/LGMA/20251201035123.069716.1618" code="LGMA">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Tuggerah, New South Wales, Australia</description>
+        <latitude>-33.3113396</latitude>
+        <longitude>151.4113468</longitude>
+        <elevation>15</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/LGMA/00/20251201035123.069826.1619" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.3113396</latitude>
+          <longitude>151.4113468</longitude>
+          <elevation>15</elevation>
+          <stream publicID="Stream/20251201035123.069887.61" code="HHZ" datalogger="Datalogger/20251201035123.069998.62" sensor="Sensor/20251201035123.070063.63">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>292153290</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/BAMB/20251201035123.073043.1631" code="BAMB">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Forde, Australian Capital Territory, Australia</description>
+        <latitude>-35.1557</latitude>
+        <longitude>149.1532</longitude>
+        <elevation>562</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/BAMB/00/20251201035123.07318.1632" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.1557</latitude>
+          <longitude>149.1532</longitude>
+          <elevation>562</elevation>
+          <stream publicID="Stream/20251201035123.073242.68" code="HHZ" datalogger="Datalogger/20251201035123.073349.69" sensor="Sensor/20251201035123.073408.70">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/ABRY/20251201035123.073644.1639" code="ABRY">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Ashbury, New South Wales, Australia</description>
+        <latitude>-33.90348718</latitude>
+        <longitude>151.1229132</longitude>
+        <elevation>27</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/ABRY/00/20251201035123.073724.1640" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.90348718</latitude>
+          <longitude>151.1229132</longitude>
+          <elevation>27</elevation>
+          <stream publicID="Stream/20251201035123.073775.75" code="HHZ" datalogger="Datalogger/20251201035123.073876.76" sensor="Sensor/20251201035123.073931.77">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>178150230</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/PENW/20251201035123.074206.1652" code="PENW">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Penwortham, South Australia, Australia</description>
+        <latitude>-33.9292</latitude>
+        <longitude>138.6209</longitude>
+        <elevation>440</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/PENW/60/20251201035123.074287.1653" code="60">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.9292</latitude>
+          <longitude>138.6209</longitude>
+          <elevation>440</elevation>
+          <stream publicID="Stream/20251201035123.074339.82" code="SHZ" datalogger="Datalogger/20251201035123.074439.83" sensor="Sensor/20251201035123.074663.84">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>305345331.2</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/NSTM/20251201035123.07513.1665" code="NSTM">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>North St Marys, New South Wales, Australia</description>
+        <latitude>-33.75428314</latitude>
+        <longitude>150.7789501</longitude>
+        <elevation>35</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/NSTM/00/20251201035123.075332.1666" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.75428314</latitude>
+          <longitude>150.7789501</longitude>
+          <elevation>35</elevation>
+          <stream publicID="Stream/20251201035123.07539.89" code="HHZ" datalogger="Datalogger/20251201035123.075661.90" sensor="Sensor/20251201035123.075726.91">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>228352410</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/WEPH/20251201035123.076518.1676" code="WEPH">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>West Pennant Hills, New South Wales, Australia</description>
+        <latitude>-33.75751</latitude>
+        <longitude>151.0382</longitude>
+        <elevation>105</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/WEPH/00/20251201035123.076619.1677" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.75751</latitude>
+          <longitude>151.0382</longitude>
+          <elevation>105</elevation>
+          <stream publicID="Stream/20251201035123.076673.96" code="HHZ" datalogger="Datalogger/20251201035123.076819.97" sensor="Sensor/20251201035123.076879.98">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>215638400</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/RNDA/20251201035123.077301.1689" code="RNDA">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Aranda, Australian Capital Territory, Australia</description>
+        <latitude>-35.258</latitude>
+        <longitude>149.082</longitude>
+        <elevation>666</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/RNDA/60/20251201035123.077426.1690" code="60">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.258</latitude>
+          <longitude>149.082</longitude>
+          <elevation>666</elevation>
+          <stream publicID="Stream/20251201035123.077607.103" code="HHE" datalogger="Datalogger/20251201035123.077726.104" sensor="Sensor/20251201035123.078026.105">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.078273.107" code="HHN" datalogger="Datalogger/20251201035123.078391.108" sensor="Sensor/20251201035123.078533.109">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.07866.111" code="HHZ" datalogger="Datalogger/20251201035123.078774.112" sensor="Sensor/20251201035123.078901.113">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+        </sensorLocation>
+        <sensorLocation publicID="LOC/DU/RNDA/AB/20251201035123.079049.1706" code="AB">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.258</latitude>
+          <longitude>149.082</longitude>
+          <elevation>666</elevation>
+          <stream publicID="Stream/20251201035123.07911.116" code="HNE" datalogger="Datalogger/20251201035123.079221.117" sensor="Sensor/20251201035123.079344.118">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.079587.120" code="HNN" datalogger="Datalogger/20251201035123.079703.121" sensor="Sensor/20251201035123.079826.122">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.07995.124" code="HNZ" datalogger="Datalogger/20251201035123.080062.125" sensor="Sensor/20251201035123.080179.126">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/WKA/20251201035123.080337.1725" code="WKA">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Willalooka, South Australia, Australia</description>
+        <latitude>-36.417</latitude>
+        <longitude>140.321</longitude>
+        <elevation>40</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/WKA/60/20251201035123.080432.1726" code="60">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-36.417</latitude>
+          <longitude>140.321</longitude>
+          <elevation>40</elevation>
+          <stream publicID="Stream/20251201035123.080511.130" code="SHZ" datalogger="Datalogger/20251201035123.080616.131" sensor="Sensor/20251201035123.08067.132">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>179516211.2</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/DJO/20251201035123.080906.1736" code="DJO">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Condell Park, New South Wales, Australia</description>
+        <latitude>-33.91882891</latitude>
+        <longitude>151.0058938</longitude>
+        <elevation>39</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/DJO/00/20251201035123.08099.1737" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.91882891</latitude>
+          <longitude>151.0058938</longitude>
+          <elevation>39</elevation>
+          <stream publicID="Stream/20251201035123.081042.137" code="HHZ" datalogger="Datalogger/20251201035123.081143.138" sensor="Sensor/20251201035123.081197.139">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>177989625</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/KENT/20251201035123.08149.1749" code="KENT">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Kenthurst, New South Wales, Australia</description>
+        <latitude>-33.66516</latitude>
+        <longitude>151.00454</longitude>
+        <elevation>143</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/KENT/00/20251201035123.081574.1750" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.66516</latitude>
+          <longitude>151.00454</longitude>
+          <elevation>143</elevation>
+          <stream publicID="Stream/20251201035123.081627.144" code="HHZ" datalogger="Datalogger/20251201035123.081728.145" sensor="Sensor/20251201035123.081783.146">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>188458080</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/HKER/20251201035123.082214.1762" code="HKER">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Hawker, South Australia, Australia</description>
+        <latitude>-31.7642</latitude>
+        <longitude>138.5525</longitude>
+        <elevation>330</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/HKER/60/20251201035123.082296.1763" code="60">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-31.7642</latitude>
+          <longitude>138.5525</longitude>
+          <elevation>330</elevation>
+          <stream publicID="Stream/20251201035123.082348.151" code="SHZ" datalogger="Datalogger/20251201035123.082461.152" sensor="Sensor/20251201035123.082518.153">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>150994944000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/HELEN/20251201035123.08284.1773" code="HELEN">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Stanwell Tops, New South Wales, Australia</description>
+        <latitude>-34.22019508</latitude>
+        <longitude>150.9757506</longitude>
+        <elevation>262</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/HELEN/00/20251201035123.08292.1774" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-34.22019508</latitude>
+          <longitude>150.9757506</longitude>
+          <elevation>262</elevation>
+          <stream publicID="Stream/20251201035123.082972.158" code="HHZ" datalogger="Datalogger/20251201035123.083073.159" sensor="Sensor/20251201035123.083127.160">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>262374700</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/LEU/20251201035123.083474.1784" code="LEU">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Leumeah, New South Wales, Australia</description>
+        <latitude>-34.06025492</latitude>
+        <longitude>150.8305681</longitude>
+        <elevation>80</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/LEU/00/20251201035123.083555.1785" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-34.06025492</latitude>
+          <longitude>150.8305681</longitude>
+          <elevation>80</elevation>
+          <stream publicID="Stream/20251201035123.083607.165" code="HHZ" datalogger="Datalogger/20251201035123.083707.166" sensor="Sensor/20251201035123.083762.167">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>260043390</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/PFLO/20251201035123.084199.1797" code="PFLO">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Colinton, New South Wales, Australia</description>
+        <latitude>-35.88922</latitude>
+        <longitude>149.17244</longitude>
+        <elevation>846</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/PFLO/00/20251201035123.084281.1798" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.88922</latitude>
+          <longitude>149.17244</longitude>
+          <elevation>846</elevation>
+          <stream publicID="Stream/20251201035123.084333.172" code="HHZ" datalogger="Datalogger/20251201035123.084432.173" sensor="Sensor/20251201035123.084501.174">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>225207920</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/USYD/20251201035123.084703.1805" code="USYD">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>The University of Sydney, New South Wales, Australia</description>
+        <latitude>-33.888775</latitude>
+        <longitude>151.189481</longitude>
+        <elevation>30</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/USYD/00/20251201035123.084782.1806" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.888775</latitude>
+          <longitude>151.189481</longitude>
+          <elevation>30</elevation>
+          <stream publicID="Stream/20251201035123.084833.179" code="HHZ" datalogger="Datalogger/20251201035123.084933.180" sensor="Sensor/20251201035123.084987.181">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>245375300</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/HML1/20251201035123.085411.1818" code="HML1">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Pinkerton Plains, South Australia, Australia</description>
+        <latitude>-34.40335</latitude>
+        <longitude>138.58887</longitude>
+        <elevation>73</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/HML1/60/20251201035123.085526.1819" code="60">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-34.40335</latitude>
+          <longitude>138.58887</longitude>
+          <elevation>73</elevation>
+          <stream publicID="Stream/20251201035123.085579.186" code="SHE" datalogger="Datalogger/20251201035123.085688.187" sensor="Sensor/20251201035123.085817.188">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.086052.190" code="SHN" datalogger="Datalogger/20251201035123.086167.191" sensor="Sensor/20251201035123.086291.192">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.086427.194" code="SHZ" datalogger="Datalogger/20251201035123.086557.195" sensor="Sensor/20251201035123.086683.196">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+        </sensorLocation>
+        <sensorLocation publicID="LOC/DU/HML1/AB/20251201035123.086854.1838" code="AB">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-34.40335</latitude>
+          <longitude>138.58887</longitude>
+          <elevation>73</elevation>
+          <stream publicID="Stream/20251201035123.086911.199" code="HNE" datalogger="Datalogger/20251201035123.08702.200" sensor="Sensor/20251201035123.087148.201">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.08727.203" code="HNN" datalogger="Datalogger/20251201035123.087397.204" sensor="Sensor/20251201035123.087541.205">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+          <stream publicID="Stream/20251201035123.08767.207" code="HNZ" datalogger="Datalogger/20251201035123.087783.208" sensor="Sensor/20251201035123.087906.209">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/ERIKA/20251201035123.088064.1854" code="ERIKA">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Castle Hills, New South Wales, Australia</description>
+        <latitude>-33.71539</latitude>
+        <longitude>150.98179</longitude>
+        <elevation>78</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/ERIKA/00/20251201035123.088145.1855" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.71539</latitude>
+          <longitude>150.98179</longitude>
+          <elevation>78</elevation>
+          <stream publicID="Stream/20251201035123.088197.213" code="HHZ" datalogger="Datalogger/20251201035123.088298.214" sensor="Sensor/20251201035123.088353.215">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>274949950</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/ALEX/20251201035123.088815.1867" code="ALEX">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Alexandria, New South Wales, Australia</description>
+        <latitude>-33.89897794</latitude>
+        <longitude>151.1991129</longitude>
+        <elevation>14</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/ALEX/00/20251201035123.088898.1868" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.89897794</latitude>
+          <longitude>151.1991129</longitude>
+          <elevation>14</elevation>
+          <stream publicID="Stream/20251201035123.088951.220" code="HHZ" datalogger="Datalogger/20251201035123.089051.221" sensor="Sensor/20251201035123.089106.222">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>277725470</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/HAZO/20251201035123.089435.1878" code="HAZO">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Hazelbrook, New South Wales, Australia</description>
+        <latitude>-33.74163818</latitude>
+        <longitude>150.4578593</longitude>
+        <elevation>623</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/HAZO/00/20251201035123.089538.1879" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.74163818</latitude>
+          <longitude>150.4578593</longitude>
+          <elevation>623</elevation>
+          <stream publicID="Stream/20251201035123.089592.227" code="HHZ" datalogger="Datalogger/20251201035123.089715.228" sensor="Sensor/20251201035123.089775.229">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>257886600</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/WAH/20251201035123.090219.1891" code="WAH">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>Wahroonga, New South Wales, Australia</description>
+        <latitude>-33.72589416</latitude>
+        <longitude>151.1153097</longitude>
+        <elevation>176</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/WAH/00/20251201035123.090301.1892" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-33.72589416</latitude>
+          <longitude>151.1153097</longitude>
+          <elevation>176</elevation>
+          <stream publicID="Stream/20251201035123.090353.234" code="HHZ" datalogger="Datalogger/20251201035123.090469.235" sensor="Sensor/20251201035123.090527.236">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>227443000</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/DU/CLIL/20251201035123.090855.1902" code="CLIL">
+        <start>1902-01-01T00:00:00.0000Z</start>
+        <description>McKellar, Australian Capital Territory, Australia</description>
+        <latitude>-35.21945</latitude>
+        <longitude>149.07772</longitude>
+        <elevation>592</elevation>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/DU/CLIL/00/20251201035123.090936.1903" code="00">
+          <start>1902-01-01T00:00:00.0000Z</start>
+          <latitude>-35.21945</latitude>
+          <longitude>149.07772</longitude>
+          <elevation>592</elevation>
+          <stream publicID="Stream/20251201035123.090987.241" code="HHZ" datalogger="Datalogger/20251201035123.091088.242" sensor="Sensor/20251201035123.091143.243">
+            <start>1902-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>200</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <gain>323262540</gain>
+            <gainFrequency>5</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>
