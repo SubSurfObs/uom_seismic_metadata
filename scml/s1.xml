@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.13" version="0.13">
+  <Inventory>
+    <network publicID="NET/S1/20251202020804.428906.269" code="S1">
+      <start>2011-09-01T02:22:00.0000Z</start>
+      <description>Australian Seismometers in Schools (AUSiS)</description>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <comment>
+        <text>{"id":0,"value":"'Australian National University (ANU, Australia). (2011). Australian Seismometers in Schools [Data set]. AusPass. https://doi.org/10.7914/SN/S1'"}</text>
+        <id>FDSNXML:Comment/0</id>
+      </comment>
+      <comment>
+        <text>{"id":1,"value":"Australian Seismometers in Schools is a dual purpose seismic network. The program offers both education outreach and provides quality data for monitoring and research. We use Guralp CMG-6TD seismometers and stream data live data to the schools and Geoscience Australia as well as providing the data to IRIS and the Australian AusPass data server. AuSIS infrastructure is supported by AuScope Geophysical Observatory program."}</text>
+        <id>FDSNXML:Comment/1</id>
+      </comment>
+      <station publicID="STA/S1/AUALB/20251202020804.429379.272" code="AUALB">
+        <start>2013-09-26T00:00:00.0000Z</start>
+        <description>St Joseph's College</description>
+        <latitude>-34.9995</latitude>
+        <longitude>117.9046</longitude>
+        <elevation>50</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUALC/20251202020804.429606.273" code="AUALC">
+        <start>2015-08-19T00:00:00.0000Z</start>
+        <description>St Philip's College</description>
+        <latitude>-23.6899</latitude>
+        <longitude>133.8835</longitude>
+        <elevation>573</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUANU/20251202020804.429709.274" code="AUANU">
+        <start>2022-11-01T11:32:11.5Z</start>
+        <description>Australian National University</description>
+        <latitude>-35.2839</latitude>
+        <longitude>149.1139</longitude>
+        <elevation>555</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUAYR/20251202020804.429778.275" code="AUAYR">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Ayr State High School</description>
+        <latitude>-19.5774</latitude>
+        <longitude>147.4088</longitude>
+        <elevation>13</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUBRM/20251202020804.4302.276" code="AUBRM">
+        <start>2019-07-14T03:52:00.0000Z</start>
+        <description>Broome Senior High School</description>
+        <latitude>-17.9565</latitude>
+        <longitude>122.2321</longitude>
+        <elevation>20</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUBRN/20251202020804.430284.277" code="AUBRN">
+        <start>2017-07-06T00:00:00.0000Z</start>
+        <description>Burnie High School</description>
+        <latitude>-41.0405</latitude>
+        <longitude>145.8684</longitude>
+        <elevation>10</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUBSH/20251202020804.430351.278" code="AUBSH">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Beerwah State High School</description>
+        <latitude>-26.864</latitude>
+        <longitude>152.9547</longitude>
+        <elevation>26</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUBUS/20251202020804.430425.279" code="AUBUS">
+        <start>2013-10-20T00:00:00.0000Z</start>
+        <description>Georgiana Molloy Anglican School</description>
+        <latitude>-33.6601</latitude>
+        <longitude>115.3828</longitude>
+        <elevation>13</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUCAR/20251202020804.430496.280" code="AUCAR">
+        <start>2013-09-24T00:00:00.0000Z</start>
+        <description>St Mary Star of the Sea</description>
+        <latitude>-24.8851</latitude>
+        <longitude>113.6586</longitude>
+        <elevation>17</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUCAS/20251202020804.430564.281" code="AUCAS">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Cummins Area School</description>
+        <latitude>-34.2637</latitude>
+        <longitude>135.7219</longitude>
+        <elevation>72</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUCSH/20251202020804.430639.282" code="AUCSH">
+        <start>2013-09-03T00:00:00.0000Z</start>
+        <description>Cairns State High School</description>
+        <latitude>-16.9159</latitude>
+        <longitude>145.7682</longitude>
+        <elevation>17</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUDAR/20251202020804.430705.283" code="AUDAR">
+        <start>2012-04-11T00:00:00.0000Z</start>
+        <description>Daramalan College</description>
+        <latitude>-35.253</latitude>
+        <longitude>149.1377</longitude>
+        <elevation>575</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUDCS/20251202020804.430755.284" code="AUDCS">
+        <start>2013-05-30T00:00:00.0000Z</start>
+        <description>Dubbo College Senior Campus</description>
+        <latitude>-32.2334</latitude>
+        <longitude>148.6278</longitude>
+        <elevation>276</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUDHS/20251202020804.430819.285" code="AUDHS">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Darwin High School</description>
+        <latitude>-12.44</latitude>
+        <longitude>130.833</longitude>
+        <elevation>26</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUGRF/20251202020804.430885.286" code="AUGRF">
+        <start>2019-04-01T00:15:53.0000Z</start>
+        <description>Marian Catholic College</description>
+        <latitude>-34.2858</latitude>
+        <longitude>146.059</longitude>
+        <elevation>132</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUHAR/20251202020804.430949.287" code="AUHAR">
+        <start>2014-09-18T00:00:00.0000Z</start>
+        <description>St Anne's School</description>
+        <latitude>-33.0927</latitude>
+        <longitude>115.8912</longitude>
+        <elevation>39</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUHPC/20251202020804.430998.288" code="AUHPC">
+        <start>2013-05-24T00:00:00.0000Z</start>
+        <description>Hawkesdale P12 School</description>
+        <latitude>-38.1068</latitude>
+        <longitude>142.3183</longitude>
+        <elevation>11</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUJCS/20251202020804.431066.289" code="AUJCS">
+        <start>2013-08-23T00:00:00.0000Z</start>
+        <description>Jamestown Community School</description>
+        <latitude>-33.2047</latitude>
+        <longitude>138.6098</longitude>
+        <elevation>464</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKAL/20251202020804.43113.290" code="AUKAL">
+        <start>2013-09-26T00:00:00.0000Z</start>
+        <description>John Paul College</description>
+        <latitude>-30.7637</latitude>
+        <longitude>121.4789</longitude>
+        <elevation>373</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKAR/20251202020804.431199.291" code="AUKAR">
+        <start>2013-09-15T00:00:00.0000Z</start>
+        <description>St Luke's College</description>
+        <latitude>-20.752</latitude>
+        <longitude>116.8178</longitude>
+        <elevation>45</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKAT/20251202020804.431264.292" code="AUKAT">
+        <start>2013-08-29T00:00:00.0000Z</start>
+        <description>Katherine High School</description>
+        <latitude>-14.4624</latitude>
+        <longitude>132.2829</longitude>
+        <elevation>122</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKHS/20251202020804.431314.293" code="AUKHS">
+        <start>2013-05-28T00:00:00.0000Z</start>
+        <description>Kincumber High School</description>
+        <latitude>-33.4642</latitude>
+        <longitude>151.3827</longitude>
+        <elevation>27</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKSC/20251202020804.43138.294" code="AUKSC">
+        <start>2013-05-24T00:00:00.0000Z</start>
+        <description>Keysborough Secondary College</description>
+        <latitude>-37.9684</latitude>
+        <longitude>145.1584</longitude>
+        <elevation>50</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUKUL/20251202020804.431466.295" code="AUKUL">
+        <start>2013-11-21T00:00:00.0000Z</start>
+        <description>Kulin District High School</description>
+        <latitude>-32.6697</latitude>
+        <longitude>118.1522</longitude>
+        <elevation>312</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AULHS/20251202020804.431521.296" code="AULHS">
+        <start>2013-10-31T00:00:00.0000Z</start>
+        <description>Lilydale High School</description>
+        <latitude>-41.2519</latitude>
+        <longitude>147.215</longitude>
+        <elevation>173</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AULRC/20251202020804.431587.297" code="AULRC">
+        <start>2013-08-29T00:00:00.0000Z</start>
+        <description>Lightning Ridge Central School</description>
+        <latitude>-29.4262</latitude>
+        <longitude>147.979</longitude>
+        <elevation>145</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMAG/20251202020804.431654.298" code="AUMAG">
+        <start>2013-05-24T00:00:00.0000Z</start>
+        <description>Moama Anglican Grammar</description>
+        <latitude>-36.1016</latitude>
+        <longitude>144.7482</longitude>
+        <elevation>127</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMAR/20251202020804.431718.299" code="AUMAR">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Marden Senior College</description>
+        <latitude>-34.8916</latitude>
+        <longitude>138.6357</longitude>
+        <elevation>153</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMAZ/20251202020804.431768.300" code="AUMAZ">
+        <start>2013-12-04T00:00:00.0000Z</start>
+        <description>Mazenod Senior College</description>
+        <latitude>-32.0069</latitude>
+        <longitude>116.0384</longitude>
+        <elevation>263</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMBR/20251202020804.431834.301" code="AUMBR">
+        <start>2016-06-20T00:00:00.0000Z</start>
+        <description>Murray Bridge High School</description>
+        <latitude>-35.134</latitude>
+        <longitude>139.2859</longitude>
+        <elevation>50</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMHS/20251202020804.4319.302" code="AUMHS">
+        <start>2012-04-11T00:00:00.0000Z</start>
+        <description>Melrose High School</description>
+        <latitude>-35.3635</latitude>
+        <longitude>149.0888</longitude>
+        <elevation>615</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMOU/20251202020804.431967.303" code="AUMOU">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Moura State High School</description>
+        <latitude>-24.5752</latitude>
+        <longitude>149.9814</longitude>
+        <elevation>153</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMTC/20251202020804.432033.304" code="AUMTC">
+        <start>2013-05-24T00:00:00.0000Z</start>
+        <description>Mt Clear College/Earth Ed</description>
+        <latitude>-37.6089</latitude>
+        <longitude>143.8771</longitude>
+        <elevation>48</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMTS/20251202020804.432557.305" code="AUMTS">
+        <start>2011-09-01T02:22:00.0000Z</start>
+        <description>Mt Stromlo</description>
+        <latitude>-35.3188</latitude>
+        <longitude>148.9964</longitude>
+        <elevation>667</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUMUL/20251202020804.432776.306" code="AUMUL">
+        <start>2013-08-29T00:00:00.0000Z</start>
+        <end>2014-12-10T00:00:00.0000Z</end>
+        <description>Mullumbimby High School</description>
+        <latitude>-28.5585</latitude>
+        <longitude>153.4949</longitude>
+        <elevation>60</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUNHS/20251202020804.432842.307" code="AUNHS">
+        <start>2013-08-28T00:00:00.0000Z</start>
+        <description>Nhulunbuy High School</description>
+        <latitude>-12.1874</latitude>
+        <longitude>136.7832</longitude>
+        <elevation>20</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUNRC/20251202020804.432892.308" code="AUNRC">
+        <start>2013-09-01T00:00:00.0000Z</start>
+        <description>North Rockhampton State High School</description>
+        <latitude>-23.3529</latitude>
+        <longitude>150.5329</longitude>
+        <elevation>38</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUPHS/20251202020804.43294.309" code="AUPHS">
+        <start>2013-05-30T00:00:00.0000Z</start>
+        <description>Peel High School</description>
+        <latitude>-31.099</latitude>
+        <longitude>150.8943</longitude>
+        <elevation>404</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUPKL/20251202020804.432988.310" code="AUPKL">
+        <start>2016-11-25T00:00:00.0000Z</start>
+        <description>Parklands High School</description>
+        <latitude>-41.0809</latitude>
+        <longitude>145.9011</longitude>
+        <elevation>171</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AURMK/20251202020804.433035.311" code="AURMK">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Renmark High School</description>
+        <latitude>-34.1728</latitude>
+        <longitude>140.7404</longitude>
+        <elevation>26</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUROX/20251202020804.433082.312" code="AUROX">
+        <start>2013-09-02T00:00:00.0000Z</start>
+        <description>Roxby Downs Area School</description>
+        <latitude>-30.5601</latitude>
+        <longitude>136.8971</longitude>
+        <elevation>106</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AURSC/20251202020804.433129.313" code="AURSC">
+        <start>2013-05-24T00:00:00.0000Z</start>
+        <description>Rosebud Secondary College</description>
+        <latitude>-38.368</latitude>
+        <longitude>144.8866</longitude>
+        <elevation>23</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUSIS/20251202020804.433175.314" code="AUSIS">
+        <start>2011-09-13T00:00:00.0000Z</start>
+        <end>2020-04-16T04:55:00.0000Z</end>
+        <description>Australian National University</description>
+        <latitude>-35.2839</latitude>
+        <longitude>149.1147</longitude>
+        <elevation>585</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUSMG/20251202020804.43322.315" code="AUSMG">
+        <start>2013-03-18T00:00:00.0000Z</start>
+        <description>Snowy Mountains Grammar School</description>
+        <latitude>-36.4161</latitude>
+        <longitude>148.6084</longitude>
+        <elevation>951</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUSSC/20251202020804.433267.316" code="AUSSC">
+        <start>2013-11-21T00:00:00.0000Z</start>
+        <description>Sale College</description>
+        <latitude>-38.0977</latitude>
+        <longitude>147.0825</longitude>
+        <elevation>19</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUTAR/20251202020804.433314.317" code="AUTAR">
+        <start>2013-11-01T00:00:00.0000Z</start>
+        <description>Taroona High School</description>
+        <latitude>-42.9425</latitude>
+        <longitude>147.3551</longitude>
+        <elevation>25</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUTKS/20251202020804.433361.318" code="AUTKS">
+        <start>2014-02-27T00:00:00.0000Z</start>
+        <description>The King's School</description>
+        <latitude>-33.7846</latitude>
+        <longitude>151.0254</longitude>
+        <elevation>95</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUTOO/20251202020804.433408.319" code="AUTOO">
+        <start>2013-08-26T00:00:00.0000Z</start>
+        <description>Toowoomba State High School</description>
+        <latitude>-27.5452</latitude>
+        <longitude>151.9668</longitude>
+        <elevation>687</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUUHS/20251202020804.433479.320" code="AUUHS">
+        <start>2013-09-15T00:00:00.0000Z</start>
+        <description>Ulladulla High School</description>
+        <latitude>-35.3589</latitude>
+        <longitude>150.4696</longitude>
+        <elevation>44</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUWSH/20251202020804.433529.321" code="AUWSH">
+        <start>2013-06-24T00:00:00.0000Z</start>
+        <description>Wavell State High School</description>
+        <latitude>-27.3977</latitude>
+        <longitude>153.0372</longitude>
+        <elevation>60</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+      <station publicID="STA/S1/AUAPY/20251202020804.433578.322" code="AUAPY">
+        <start>2019-08-07T01:46:00.0000Z</start>
+        <description>Ernabella Anangu School</description>
+        <latitude>-26.2844</latitude>
+        <longitude>132.1353</longitude>
+        <elevation>670</elevation>
+        <country>AUS</country>
+        <restricted>false</restricted>
+        <shared>true</shared>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>
