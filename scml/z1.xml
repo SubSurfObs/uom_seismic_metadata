@@ -8,6 +8,27 @@
       <unit>m/s</unit>
       <remark>{"unit": "Velocity in Meters Per Second", "version": "2021-03-18", "parameters": {"Low-Frequency_Corner": "2.0 Hz", "Coil_Resistance": "3810", "Shunt_Resistance": "106661", "Sensitivity": "76.0 V/m/s", "Sensor_Type": "groundVel"}}</remark>
     </sensor>
+    <datalogger publicID="Datalogger/20260130034148.325366.6" name="Z1.S3IN.00DHZ.1970.001.00.00.00">
+      <gain>1</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>ResponsePAZ/20260202034026.880432.7</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20260130034148.326087.9" name="Z1.S3IN.00DHE.1970.001.00.00.00">
+      <gain>1</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>ResponsePAZ/20260202034026.880432.7</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger/20260130034148.326348.12" name="Z1.S3IN.00DHN.1970.001.00.00.00">
+      <gain>1</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <decimation sampleRateNumerator="250" sampleRateDenominator="1">
+        <digitalFilterChain>ResponsePAZ/20260202034026.880432.7</digitalFilterChain>
+      </decimation>
+    </datalogger>
     <datalogger publicID="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250" name="datalogger_SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250">
       <description>SeismologyResearchCentre; Gecko; Preamp_Gain 1; Serial_Number from2000225; Final_Sample_Rate 250 Hz</description>
       <digitizerModel>Gecko</digitizerModel>
@@ -52,6 +73,20 @@
       <normalizationFrequency>1</normalizationFrequency>
       <numberOfZeros>0</numberOfZeros>
       <numberOfPoles>0</numberOfPoles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ/20260202034026.880432.7" name="ResponsePAZ/20260202034026.880432.7">
+      <type>A</type>
+      <gain>257698000</gain>
+      <gainFrequency>50</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>50</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-22.211059,22.217768) (-22.211059,-22.217768)</poles>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
     </responsePAZ>
     <responseFIR publicID="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0" name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG1_SNfrom2000225_FR250/0">
       <gain>1</gain>
@@ -400,6 +435,749 @@
             <gain>264073128</gain>
             <gainFrequency>15</gainFrequency>
             <gainUnit>m/s</gainUnit>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="STA/Z1/S3IN/20260202034026.879408.139" code="S3IN">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-18T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453002581</description>
+        <latitude>-38.524982</latitude>
+        <longitude>142.810684</longitude>
+        <elevation>49.064993154</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <shared>true</shared>
+        <sensorLocation publicID="LOC/Z1/S3IN/00/20260202034026.879647.140" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-19T00:00:00.0000Z</end>
+          <latitude>-38.524982</latitude>
+          <longitude>142.810684</longitude>
+          <elevation>49.064993154</elevation>
+          <stream publicID="Stream/20260202034026.879852.5" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>1970-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20260202034026.880819.8" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>1970-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream/20260202034026.881153.11" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>1970-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202035008.708703.22405" code="S3IS">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-18T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453011923</description>
+        <latitude>-38.532658</latitude>
+        <longitude>142.810776</longitude>
+        <elevation>54</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202035009.020493.36324" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-18T00:00:00.0000Z</end>
+          <latitude>-38.532658</latitude>
+          <longitude>142.810776</longitude>
+          <elevation>54</elevation>
+          <stream publicID="Stream#20260202035009.022175.38479" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202035009.022184.19449" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202035009.02219.46700" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202040813.239001.50680" code="S3V10">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-20T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453002147</description>
+        <latitude>-38.534134</latitude>
+        <longitude>142.805847</longitude>
+        <elevation>57</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202040813.640535.13397" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-18T00:00:00.0000Z</end>
+          <latitude>-38.534134</latitude>
+          <longitude>142.805847</longitude>
+          <elevation>57</elevation>
+          <stream publicID="Stream#20260202040813.64301.30616" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040813.643024.55861" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040813.643034.53672" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202040641.332212.17547" code="S3V5">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-22T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453022015</description>
+        <latitude>-38.532284</latitude>
+        <longitude>142.807755</longitude>
+        <elevation>56</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202040641.684146.44908" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-18T00:00:00.0000Z</end>
+          <latitude>-38.532284</latitude>
+          <longitude>142.807755</longitude>
+          <elevation>55.59</elevation>
+          <stream publicID="Stream#20260202040641.686679.13609" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040641.6867.25589" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040641.686714.38115" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202040547.110542.52551" code="S3V8">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-20T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453001688</description>
+        <latitude>-38.525311</latitude>
+        <longitude>142.813293</longitude>
+        <elevation>47</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202040547.516181.52440" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-18T00:00:00.0000Z</end>
+          <latitude>-38.525311</latitude>
+          <longitude>142.813293</longitude>
+          <elevation>47</elevation>
+          <stream publicID="Stream#20260202040547.517906.42062" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040547.517925.48993" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202040547.517939.23078" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202041059.938067.58054" code="S3V6">
+        <start>2025-09-22T00:00:00.0000Z</start>
+        <end>2025-10-21T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453021865</description>
+        <latitude>-38.532242</latitude>
+        <longitude>142.797043</longitude>
+        <elevation>60</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202041100.355872.48577" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-18T00:00:00.0000Z</end>
+          <latitude>-38.532242</latitude>
+          <longitude>142.797043</longitude>
+          <elevation>60</elevation>
+          <stream publicID="Stream#20260202041100.358149.23278" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041100.358167.17762" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041100.358181.56099" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-18T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202041223.302967.16146" code="S3C6N">
+        <start>2025-09-11T00:00:00.0000Z</start>
+        <end>2025-10-11T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453021837</description>
+        <latitude>-38.529755</latitude>
+        <longitude>142.816071</longitude>
+        <elevation>48</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202041223.617248.31335" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-11T00:00:00.0000Z</end>
+          <stream publicID="Stream#20260202041223.619167.62028" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-11T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041223.619177.33197" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-11T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041223.619184.44497" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-11T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202041421.674475.31978" code="S3C6S">
+        <start>2025-09-11T00:00:00.0000Z</start>
+        <end>2025-10-10T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453021931</description>
+        <latitude>-38.52998</latitude>
+        <longitude>142.81604</longitude>
+        <elevation>47.34</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202041422.085735.11366" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-10T00:00:00.0000Z</end>
+          <stream publicID="Stream#20260202041422.088309.47182" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041422.088328.60548" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041422.08834.36236" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20260202041603.948958.4395" code="S3B4">
+        <start>2025-09-11T00:00:00.0000Z</start>
+        <end>2025-10-10T00:00:00.0000Z</end>
+        <description>Smart-Solo IGU 16HR 3C temporary site: SN 453012027</description>
+        <latitude>-38.529385</latitude>
+        <longitude>142.810181</longitude>
+        <elevation>52</elevation>
+        <place>Nirranda South</place>
+        <country>Australia</country>
+        <affiliation>University of Melbourne</affiliation>
+        <type>SP</type>
+        <restricted>true</restricted>
+        <shared>false</shared>
+        <sensorLocation publicID="SensorLocation#20260202041604.276038.5553" code="00">
+          <start>2025-09-22T00:00:00.0000Z</start>
+          <end>2025-10-10T00:00:00.0000Z</end>
+          <stream publicID="Stream#20260202041604.277725.17274" code="DHE" datalogger="Datalogger/20260130034148.326087.9">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041604.277744.65452" code="DHN" datalogger="Datalogger/20260130034148.326348.12">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
+          </stream>
+          <stream publicID="Stream#20260202041604.277758.29087" code="DHZ" datalogger="Datalogger/20260130034148.325366.6">
+            <start>2025-09-22T00:00:00.0000Z</start>
+            <end>2025-10-10T00:00:00.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>453002581</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>250</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>257698000</gain>
+            <gainFrequency>50</gainFrequency>
+            <gainUnit>m/s</gainUnit>
+            <flags>C</flags>
+            <comment>
+              <text>{"description":"DTSOLO","manufacturer":"DTCC","serialNumber":"453002581"}</text>
+              <id>FDSNXML:Sensor</id>
+            </comment>
           </stream>
         </sensorLocation>
       </station>
