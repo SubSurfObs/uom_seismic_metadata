@@ -32,9 +32,29 @@ What this repository is not for
 
 ## Affiliated Network(s) 
 
-## DU Network
+### DU Network
 
 - https://www.fdsn.org/networks/detail/DU/
 - https://www.fdsn.org/networks/detail/AU/
 - https://www.fdsn.org/networks/detail/OZ/     
+
+## SmartSolo nodes
+
+# SmartSolo / SoloLite metadata notes (working draft)
+
+We are still in the process of finalising metadata practices for SmartSolo nodes.
+
+The **SoloLite software** is capable of exporting **FDSN StationXML** directly. The azimuths in the exported XML are **reversed relative to the conventional E/N/Z station configuration**, but conistent with teh Sensor Polarity. This behaviour is documented in the AusPASS wiki and reflects the internal orientation conventions used by SmartSolo hardware/software.
+
+Separately, we have experimented with generating SmartSolo metadata via **GEMPA SMP**, using **NRL-derived response information** for SmartSolo nodes. At the time of writing, the metadata produced via this route is **not fully consistent** with the StationXML exported directly by SoloLite.
+
+However, importing SoloLite-generated StationXML into **GEMPA SMP** introduces further complications. Although the XML is formally valid and can be converted into SeisComP inventory, the SMP web interface often reports that **no sensor is available**, which prevents straightforward editing or updating of channel information. 
+
+In summary:
+- SoloLite StationXML is internally consistent and vendor-supported, but uses non-standard orientation conventions.
+- NRL/SMP-based SmartSolo metadata is currently inconsistent with SoloLite output.
+- SMP is not well suited to editing externally generated SmartSolo StationXML without recreating sensor/datalogger objects inside SMP.
+- A workflow based on **SoloLite XML → scripted normalisation → direct import into SeisComP** is likely the most reliable short-term solution.
+
+These issues require further exploration, particularly if long-term SMP-based editing or strict NRL alignment is desired.
 
