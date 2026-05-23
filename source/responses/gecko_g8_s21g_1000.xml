@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>scml import</Source>
+  <Sender>ObsPy Inventory</Sender>
+  <Module/>
+  <ModuleURI/>
+  <Created>2026-05-22T23:44:20.511113Z</Created>
+  <Network code="Z1" startDate="2025-09-11T06:14:49.000000Z" restrictedStatus="closed">
+    <Description>Network of borehole geophones, tiltmeters as well additional surface nodal seismometers installed to assist in monitoring the Otway Stage 4 field program.</Description>
+    <Station code="BGT3" startDate="2025-09-30T00:00:00.000000Z" restrictedStatus="closed">
+      <Latitude unit="DEGREES">-38.5301966</Latitude>
+      <Longitude unit="DEGREES">142.8060834</Longitude>
+      <Elevation>45.0</Elevation>
+      <Site>
+        <Name/>
+      </Site>
+      <CreationDate>2025-09-30T00:00:00.000000Z</CreationDate>
+      <Channel code="CHZ" startDate="2025-09-30T00:00:00.000000Z" endDate="2026-03-14T00:00:00.000000Z" restrictedStatus="closed" locationCode="00">
+        <ns0:format xmlns:ns0="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10">None</ns0:format>
+        <Latitude unit="DEGREES">-38.529314</Latitude>
+        <Longitude unit="DEGREES">142.810233</Longitude>
+        <Elevation>44.0</Elevation>
+        <Depth>25.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">250.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>250</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+          <Type>Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 250 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0" resourceId="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0">
+              <InputUnits>
+                <Name>m/s</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">15.0</NormalizationFrequency>
+              <Zero number="2">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Zero number="3">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real>-8.8857</Real>
+                <Imaginary>-8.8857</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-8.8857</Real>
+                <Imaginary>8.8857</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>78.7</Value>
+              <Frequency>15.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros name="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0" resourceId="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0">
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>8.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients name="datalogger_SeismologyResearchCentre_Gecko_PG8_SNall_FR250" resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR250">
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">8000.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>419430.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="4">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/0">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>ODD</Symmetry>
+              <NumeratorCoefficient i="0">0.005859375</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-0.04882813</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">0.2929688</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">0.5</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">8000.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.000625</Delay>
+              <Correction>0.000625</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="5">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/1" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/1">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>ODD</Symmetry>
+              <NumeratorCoefficient i="0">-0.001304626</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">0.01237476</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">-0.06054676</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">0.2994766</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">0.5</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">4000.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.00175</Delay>
+              <Correction>0.00175</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="6">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/2" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/2">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-5.4396e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">-6.512617e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">-3.46346e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">-0.0001203195</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">-0.0003075982</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-0.0006030802</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">-0.0008946577</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">-0.0008844193</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">-0.0001356398</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">0.001674734</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">0.004323334</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">0.006656155</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.006642243</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">0.002187747</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">-0.007356522</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">-0.01964052</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.02876521</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">-0.0266206</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">-0.006129408</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">0.03479149</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">0.09056336</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">0.1483677</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">0.1920953</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">0.2083953</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">0.1920953</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">0.1483677</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.09056336</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">0.03479149</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">-0.006129408</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.0266206</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">-0.02876521</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">-0.01964052</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">-0.007356522</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">0.002187747</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">0.006642243</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">0.006656155</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.004323334</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">0.001674734</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">-0.0001356398</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.0008844193</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.0008946577</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">-0.0006030802</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">-0.0003075982</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">-0.0001203195</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-3.46346e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">-6.512617e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">-5.4396e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">0.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">2000.0</InputSampleRate>
+              <Factor>4</Factor>
+              <Offset>0</Offset>
+              <Delay>0.01275</Delay>
+              <Correction>0.01275</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="7">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/3" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR250/3">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">-9.833262e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">-3.218158e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-5.587081e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">1.848206e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">4.985166e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">5.52674e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">-1.981551e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-7.943339e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">-6.168137e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">7.911306e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">0.0001639473</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">2.592405e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">-0.0002541973</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">-0.0001903258</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.0002492583</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">0.0004572988</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">-5.621348e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">-0.0007016777</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.0003771577</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">0.0007533992</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">0.001004378</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">-0.000421832</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">-0.001639652</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">-0.0004177795</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">0.00196485</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">0.001722542</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">-0.001603351</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">-0.003204585</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.0002586073</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">0.004323834</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">0.002114732</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.004383117</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">-0.005164019</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">0.002727374</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">0.008081049</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">0.0009899785</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">-0.009684921</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">-0.006545391</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.008657658</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">0.01297369</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">-0.003892579</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.01855205</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.005132255</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">0.02094588</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">0.01806857</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">-0.0174175</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-0.03360529</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">0.004779226</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">0.04962616</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.02198189</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">-0.06360375</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">-0.07849698</NumeratorCoefficient>
+              <NumeratorCoefficient i="52">0.07314216</NumeratorCoefficient>
+              <NumeratorCoefficient i="53">0.3086033</NumeratorCoefficient>
+              <NumeratorCoefficient i="54">0.4233947</NumeratorCoefficient>
+              <NumeratorCoefficient i="55">0.3086033</NumeratorCoefficient>
+              <NumeratorCoefficient i="56">0.07314216</NumeratorCoefficient>
+              <NumeratorCoefficient i="57">-0.07849698</NumeratorCoefficient>
+              <NumeratorCoefficient i="58">-0.06360375</NumeratorCoefficient>
+              <NumeratorCoefficient i="59">0.02198189</NumeratorCoefficient>
+              <NumeratorCoefficient i="60">0.04962616</NumeratorCoefficient>
+              <NumeratorCoefficient i="61">0.004779226</NumeratorCoefficient>
+              <NumeratorCoefficient i="62">-0.03360529</NumeratorCoefficient>
+              <NumeratorCoefficient i="63">-0.0174175</NumeratorCoefficient>
+              <NumeratorCoefficient i="64">0.01806857</NumeratorCoefficient>
+              <NumeratorCoefficient i="65">0.02094588</NumeratorCoefficient>
+              <NumeratorCoefficient i="66">-0.005132255</NumeratorCoefficient>
+              <NumeratorCoefficient i="67">-0.01855205</NumeratorCoefficient>
+              <NumeratorCoefficient i="68">-0.003892579</NumeratorCoefficient>
+              <NumeratorCoefficient i="69">0.01297369</NumeratorCoefficient>
+              <NumeratorCoefficient i="70">0.008657658</NumeratorCoefficient>
+              <NumeratorCoefficient i="71">-0.006545391</NumeratorCoefficient>
+              <NumeratorCoefficient i="72">-0.009684921</NumeratorCoefficient>
+              <NumeratorCoefficient i="73">0.0009899785</NumeratorCoefficient>
+              <NumeratorCoefficient i="74">0.008081049</NumeratorCoefficient>
+              <NumeratorCoefficient i="75">0.002727374</NumeratorCoefficient>
+              <NumeratorCoefficient i="76">-0.005164019</NumeratorCoefficient>
+              <NumeratorCoefficient i="77">-0.004383117</NumeratorCoefficient>
+              <NumeratorCoefficient i="78">0.002114732</NumeratorCoefficient>
+              <NumeratorCoefficient i="79">0.004323834</NumeratorCoefficient>
+              <NumeratorCoefficient i="80">0.0002586073</NumeratorCoefficient>
+              <NumeratorCoefficient i="81">-0.003204585</NumeratorCoefficient>
+              <NumeratorCoefficient i="82">-0.001603351</NumeratorCoefficient>
+              <NumeratorCoefficient i="83">0.001722542</NumeratorCoefficient>
+              <NumeratorCoefficient i="84">0.00196485</NumeratorCoefficient>
+              <NumeratorCoefficient i="85">-0.0004177795</NumeratorCoefficient>
+              <NumeratorCoefficient i="86">-0.001639652</NumeratorCoefficient>
+              <NumeratorCoefficient i="87">-0.000421832</NumeratorCoefficient>
+              <NumeratorCoefficient i="88">0.001004378</NumeratorCoefficient>
+              <NumeratorCoefficient i="89">0.0007533992</NumeratorCoefficient>
+              <NumeratorCoefficient i="90">-0.0003771577</NumeratorCoefficient>
+              <NumeratorCoefficient i="91">-0.0007016777</NumeratorCoefficient>
+              <NumeratorCoefficient i="92">-5.621348e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="93">0.0004572988</NumeratorCoefficient>
+              <NumeratorCoefficient i="94">0.0002492583</NumeratorCoefficient>
+              <NumeratorCoefficient i="95">-0.0001903258</NumeratorCoefficient>
+              <NumeratorCoefficient i="96">-0.0002541973</NumeratorCoefficient>
+              <NumeratorCoefficient i="97">2.592405e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="98">0.0001639473</NumeratorCoefficient>
+              <NumeratorCoefficient i="99">7.911306e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="100">-6.168137e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="101">-7.943339e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="102">-1.981551e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="103">5.52674e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="104">4.985166e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="105">1.848206e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="106">-5.587081e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="107">-3.218158e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="108">-9.833262e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="109">0.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">500.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.109</Delay>
+              <Correction>0.109</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="CHZ" startDate="2026-03-14T00:00:00.000000Z" restrictedStatus="closed" locationCode="00">
+        <ns1:format xmlns:ns1="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10">None</ns1:format>
+        <Latitude unit="DEGREES">-38.529314</Latitude>
+        <Longitude unit="DEGREES">142.810233</Longitude>
+        <Elevation>44.0</Elevation>
+        <Depth>25.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate unit="SAMPLES/S">1000.0</SampleRate>
+        <SampleRateRatio>
+          <NumberSamples>1000</NumberSamples>
+          <NumberSeconds>1</NumberSeconds>
+        </SampleRateRatio>
+        <Sensor resourceId="NRL/Sensor/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel">
+          <Description>IESE; S21g; Low-Frequency_Corner 2.0 Hz; Coil_Resistance 3810; Shunt_Resistance 106661; Sensitivity 76.0 V/m/s; Sensor_Type groundVel</Description>
+          <Manufacturer>IESE</Manufacturer>
+          <Model>S21g</Model>
+        </Sensor>
+        <DataLogger resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000">
+          <Type>Gecko</Type>
+          <Description>SeismologyResearchCentre; Gecko; Preamp_Gain 8; Serial_Number all; Final_Sample_Rate 1000 Hz</Description>
+          <Manufacturer>SeismologyResearchCentre</Manufacturer>
+          <Model>Gecko</Model>
+        </DataLogger>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>264073128.0</Value>
+            <Frequency>15.0</Frequency>
+            <InputUnits>
+              <Name>m/s</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0" resourceId="NRL/ResponsePAZ/IESE_S21g_LF2.0_RC3810_RS106661_SG76.0_STgroundVel/0">
+              <InputUnits>
+                <Name>m/s</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">15.0</NormalizationFrequency>
+              <Zero number="2">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Zero number="3">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real>-8.8857</Real>
+                <Imaginary>-8.8857</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-8.8857</Real>
+                <Imaginary>8.8857</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>78.7</Value>
+              <Frequency>15.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros name="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/0" resourceId="NRL/ResponsePAZ/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/0">
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>8.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients name="datalogger_SeismologyResearchCentre_Gecko_PG8_SNall_FR1000" resourceId="NRL/Datalogger/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000">
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">32000.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>419430.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="4">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/0" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/0">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>ODD</Symmetry>
+              <NumeratorCoefficient i="0">0.005859375</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-0.04882813</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">0.2929688</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">0.5</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">32000.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.00015625</Delay>
+              <Correction>0.00015625</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="5">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/1" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/1">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>ODD</Symmetry>
+              <NumeratorCoefficient i="0">-0.001304626</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">0.01237476</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">-0.06054676</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">0.2994766</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">0.5</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">16000.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0004375</Delay>
+              <Correction>0.0004375</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="6">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/2" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/2">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-5.4396e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">-6.512617e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">-3.46346e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">-0.0001203195</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">-0.0003075982</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-0.0006030802</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">-0.0008946577</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">-0.0008844193</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">-0.0001356398</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">0.001674734</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">0.004323334</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">0.006656155</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.006642243</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">0.002187747</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">-0.007356522</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">-0.01964052</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.02876521</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">-0.0266206</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">-0.006129408</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">0.03479149</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">0.09056336</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">0.1483677</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">0.1920953</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">0.2083953</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">0.1920953</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">0.1483677</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.09056336</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">0.03479149</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">-0.006129408</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.0266206</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">-0.02876521</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">-0.01964052</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">-0.007356522</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">0.002187747</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">0.006642243</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">0.006656155</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.004323334</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">0.001674734</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">-0.0001356398</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.0008844193</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.0008946577</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">-0.0006030802</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">-0.0003075982</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">-0.0001203195</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-3.46346e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">-6.512617e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">-5.4396e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">0.0</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">0.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">8000.0</InputSampleRate>
+              <Factor>4</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0031875</Delay>
+              <Correction>0.0031875</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="7">
+            <FIR name="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/3" resourceId="NRL/ResponseFIR/SeismologyResearchCentre_Gecko_PG8_SNall_FR1000/3">
+              <InputUnits>
+                <Name>COUNTS</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">-9.833262e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">-3.218158e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-5.587081e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">1.848206e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">4.985166e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">5.52674e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">-1.981551e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-7.943339e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">-6.168137e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">7.911306e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">0.0001639473</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">2.592405e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">-0.0002541973</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">-0.0001903258</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.0002492583</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">0.0004572988</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">-5.621348e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">-0.0007016777</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.0003771577</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">0.0007533992</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">0.001004378</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">-0.000421832</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">-0.001639652</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">-0.0004177795</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">0.00196485</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">0.001722542</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">-0.001603351</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">-0.003204585</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.0002586073</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">0.004323834</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">0.002114732</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.004383117</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">-0.005164019</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">0.002727374</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">0.008081049</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">0.0009899785</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">-0.009684921</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">-0.006545391</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.008657658</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">0.01297369</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">-0.003892579</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.01855205</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.005132255</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">0.02094588</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">0.01806857</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">-0.0174175</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-0.03360529</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">0.004779226</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">0.04962616</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.02198189</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">-0.06360375</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">-0.07849698</NumeratorCoefficient>
+              <NumeratorCoefficient i="52">0.07314216</NumeratorCoefficient>
+              <NumeratorCoefficient i="53">0.3086033</NumeratorCoefficient>
+              <NumeratorCoefficient i="54">0.4233947</NumeratorCoefficient>
+              <NumeratorCoefficient i="55">0.3086033</NumeratorCoefficient>
+              <NumeratorCoefficient i="56">0.07314216</NumeratorCoefficient>
+              <NumeratorCoefficient i="57">-0.07849698</NumeratorCoefficient>
+              <NumeratorCoefficient i="58">-0.06360375</NumeratorCoefficient>
+              <NumeratorCoefficient i="59">0.02198189</NumeratorCoefficient>
+              <NumeratorCoefficient i="60">0.04962616</NumeratorCoefficient>
+              <NumeratorCoefficient i="61">0.004779226</NumeratorCoefficient>
+              <NumeratorCoefficient i="62">-0.03360529</NumeratorCoefficient>
+              <NumeratorCoefficient i="63">-0.0174175</NumeratorCoefficient>
+              <NumeratorCoefficient i="64">0.01806857</NumeratorCoefficient>
+              <NumeratorCoefficient i="65">0.02094588</NumeratorCoefficient>
+              <NumeratorCoefficient i="66">-0.005132255</NumeratorCoefficient>
+              <NumeratorCoefficient i="67">-0.01855205</NumeratorCoefficient>
+              <NumeratorCoefficient i="68">-0.003892579</NumeratorCoefficient>
+              <NumeratorCoefficient i="69">0.01297369</NumeratorCoefficient>
+              <NumeratorCoefficient i="70">0.008657658</NumeratorCoefficient>
+              <NumeratorCoefficient i="71">-0.006545391</NumeratorCoefficient>
+              <NumeratorCoefficient i="72">-0.009684921</NumeratorCoefficient>
+              <NumeratorCoefficient i="73">0.0009899785</NumeratorCoefficient>
+              <NumeratorCoefficient i="74">0.008081049</NumeratorCoefficient>
+              <NumeratorCoefficient i="75">0.002727374</NumeratorCoefficient>
+              <NumeratorCoefficient i="76">-0.005164019</NumeratorCoefficient>
+              <NumeratorCoefficient i="77">-0.004383117</NumeratorCoefficient>
+              <NumeratorCoefficient i="78">0.002114732</NumeratorCoefficient>
+              <NumeratorCoefficient i="79">0.004323834</NumeratorCoefficient>
+              <NumeratorCoefficient i="80">0.0002586073</NumeratorCoefficient>
+              <NumeratorCoefficient i="81">-0.003204585</NumeratorCoefficient>
+              <NumeratorCoefficient i="82">-0.001603351</NumeratorCoefficient>
+              <NumeratorCoefficient i="83">0.001722542</NumeratorCoefficient>
+              <NumeratorCoefficient i="84">0.00196485</NumeratorCoefficient>
+              <NumeratorCoefficient i="85">-0.0004177795</NumeratorCoefficient>
+              <NumeratorCoefficient i="86">-0.001639652</NumeratorCoefficient>
+              <NumeratorCoefficient i="87">-0.000421832</NumeratorCoefficient>
+              <NumeratorCoefficient i="88">0.001004378</NumeratorCoefficient>
+              <NumeratorCoefficient i="89">0.0007533992</NumeratorCoefficient>
+              <NumeratorCoefficient i="90">-0.0003771577</NumeratorCoefficient>
+              <NumeratorCoefficient i="91">-0.0007016777</NumeratorCoefficient>
+              <NumeratorCoefficient i="92">-5.621348e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="93">0.0004572988</NumeratorCoefficient>
+              <NumeratorCoefficient i="94">0.0002492583</NumeratorCoefficient>
+              <NumeratorCoefficient i="95">-0.0001903258</NumeratorCoefficient>
+              <NumeratorCoefficient i="96">-0.0002541973</NumeratorCoefficient>
+              <NumeratorCoefficient i="97">2.592405e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="98">0.0001639473</NumeratorCoefficient>
+              <NumeratorCoefficient i="99">7.911306e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="100">-6.168137e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="101">-7.943339e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="102">-1.981551e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="103">5.52674e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="104">4.985166e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="105">1.848206e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="106">-5.587081e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="107">-3.218158e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="108">-9.833262e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="109">0.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">2000.0</InputSampleRate>
+              <Factor>2</Factor>
+              <Offset>0</Offset>
+              <Delay>0.02725</Delay>
+              <Correction>0.02725</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

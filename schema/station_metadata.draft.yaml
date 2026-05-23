@@ -1,0 +1,147 @@
+# =============================================================================
+# DRAFT — shared, epoch-based station-metadata schema
+# Proposed SINGLE SOURCE OF TRUTH for UoM seismic station metadata over time.
+#
+# Status: PROPOSAL for discussion (rev 2, 2026-05-23). Intended to be SHARED
+# across the SubSurfObs SeisComP projects:
+#   * uom_seismic_metadata  -> GENERATES StationXML/SCML from this file.
+#   * eqserver_2_seiscomp   -> WRITES historical (pre-2025) epochs into this file
+#                              from the EQ Server archive (via sudspy).
+#
+# Design principles:
+#   * SINGLE SOURCE OF TRUTH. Each fact lives here once. StationXML/SCML are
+#     GENERATED and never hand-edited (CI regenerates + fails on diff).
+#   * Responses are NOT stored per station. Each epoch names an INSTRUMENT
+#     template (recorder + gain + sensor) defined once under `instruments:`.
+#   * Epoch-based. Anything that changes over time becomes a new epoch.
+#   * sample_rate is its OWN per-epoch axis (NOT baked into the instrument), so a
+#     pure sample-rate change is a one-field edit. The generator combines
+#     instrument + sample_rate to resolve the NRL datalogger/decimation, and
+#     DERIVES the SEED channel code (band letter) from sample_rate + sensor band.
+#   * Provenance is first-class (basis / confidence / source per epoch).
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# INSTRUMENTS — (recorder + preamp gain + sensor) templates, defined ONCE.
+# NB: NO sample_rate here — rate is an epoch axis. The generator picks the NRL
+# datalogger decimation for the chosen rate, and derives the band letter.
+# `response_ref` optionally pins a validated response harvested from current SCML.
+#
+# NRL COVERAGE CAVEAT:
+#   * Gecko (SRC) recorder + the sensors ARE in the NRL -> full response from NRL.
+#   * EchoPro recorder is NOT in the NRL (same maker, SRC). For EchoPro we take the
+#     SENSOR response from NRL and model the datalogger as a flat gain from a
+#     manually-supplied `datalogger_sensitivity` (counts/V). That scalar is the only
+#     thing we need to inject ourselves.
+# -----------------------------------------------------------------------------
+instruments:
+
+  gecko_g1_cmg6t:
+    recorder:    {make: SeismologyResearchCentre, model: Gecko, preamp_gain: 1}
+    sensor:      {make: Guralp, model: CMG-6T}        # 2400 V/m/s
+    sensor_band: broadband                            # informational (band code is rate-driven)
+    instrument_code: H                                # SEED 2nd letter (seismometer)
+    components:  [Z, N, E]
+    location:    "00"
+    nrl:
+      sensor_keys:     ["Guralp", "CMG-6T", "...", "2400 V/m/s"]
+      datalogger_keys: ["SeismologyResearchCentre", "Gecko", "gain 1"]   # rate appended at build
+    response_ref: responses/gecko_g1_cmg6t_{rate}.xml  # {rate} filled per epoch
+
+  echopro_cmg6t:
+    recorder:    {make: SeismologyResearchCentre, model: EchoPro}
+    recorder_in_nrl: false                  # EchoPro NOT in NRL -> manual datalogger
+    datalogger_sensitivity: 838860.8        # counts/V (EchoPro; cf. Gempa-smp.md)
+    datalogger_sensitivity_unit: "counts/V"
+    sensor:      {make: Guralp, model: CMG-6T}
+    sensor_band: broadband
+    instrument_code: H
+    components:  [Z, N, E]
+    location:    "00"
+    nrl:
+      sensor_keys: ["Guralp", "CMG-6T", "...", "2400 V/m/s"]   # sensor only
+    response_ref: responses/echopro_cmg6t_{rate}.xml
+
+  gecko_g8_s21g:
+    recorder:    {make: SeismologyResearchCentre, model: Gecko, preamp_gain: 8}
+    sensor:      {make: IESE, model: S21g}            # short-period, 76 V/m/s
+    sensor_band: short_period
+    instrument_code: H
+    components:  [Z, N, E]
+    location:    "00"
+    nrl:
+      sensor_keys:     ["IESE", "S21g", "..."]
+      datalogger_keys: ["SeismologyResearchCentre", "Gecko", "gain 8"]
+    response_ref: responses/gecko_g8_s21g_{rate}.xml
+
+  # TODO (harvest + amplitude-validate): gecko_g1_trillium20, echopro_trillium20
+
+
+# -----------------------------------------------------------------------------
+# Channel band-letter derivation (generator owns this) — RECORDER-driven:
+# network is homogenised to what the GECKO produces, keyed purely on sample_rate:
+#   250 -> C ,  500 -> C ,  1000 -> F     (instrument code H ; components Z/N/E)
+# NOT the strict SEED corner-period rule — no short-period D/G/E letters are used.
+# Historical EchoPro used NON-SEED codes (e.g. CO1) and is REMAPPED to this.
+# (=> the current Z1 CH* channels at 1000 Hz should be FH*.)
+# -----------------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------------
+# STATIONS — identity + ordered epochs. Coordinates are the only per-station fact
+# not carried by an instrument template. Folds in the eqserver registry fields
+# (include, network, network_basis, source_network_code).
+# -----------------------------------------------------------------------------
+stations:
+
+  Z1.EXBH:                       # example borehole station
+    include:  true
+    network:  Z1
+    code:     EXBH
+    latitude:   -38.20
+    longitude:  142.80
+    elevation:  30
+    network_basis:       registry
+    source_network_code: null
+
+    epochs:
+      - start: 2025-09-11
+        end:   2026-05-15            # closed when rate changed
+        instrument:  gecko_g1_cmg6t
+        sample_rate: 250             # -> generator emits CHZ/CHN/CHE
+        basis:       scml
+        confidence:  high
+        source:      "scml/z1.xml"
+
+      - start: 2026-05-15
+        end:   null                  # current/open
+        instrument:  gecko_g1_cmg6t  # SAME instrument — only the rate changed
+        sample_rate: 1000            # -> generator emits FHZ/FHN/FHE (NOT CH*)
+        basis:       manual
+        confidence:  high
+        source:      "operator change 2026-05-15"
+
+  VW.TOO:                        # example EchoPro -> Gecko migration
+    include:  true
+    network:  VW
+    code:     TOO
+    latitude:   -37.5321
+    longitude:  145.4712
+    elevation:  480
+    network_basis:       registry
+    source_network_code: AB
+    epochs:
+      - {start: 2013-05-01, end: 2025-03-18, instrument: echopro_cmg6t, sample_rate: 250, basis: eqserver, confidence: high,   source: "EQ Server + sudspy"}
+      - {start: 2025-03-18, end: null,        instrument: gecko_g1_cmg6t, sample_rate: 250, basis: scml,     confidence: high,   source: "scml/vw.xml"}
+
+
+# -----------------------------------------------------------------------------
+# OPEN QUESTIONS (for discussion)
+#  * RESOLVED in this rev: sample_rate is a per-epoch field (one-field rate change).
+#  * Borehole/nodal (Z1) — add OPTIONAL per-epoch lat/lon/elev/depth overrides?
+#  * The ~33 VW/VX/Z1 channels with NO equipment metadata — assign an instrument
+#    or an explicit `unknown` placeholder until resolved?
+#  * Physical home for sharing: a shared schema PACKAGE both repos import + ONE
+#    canonical data location (recommended), vs one repo owns + the other reads.
+# -----------------------------------------------------------------------------

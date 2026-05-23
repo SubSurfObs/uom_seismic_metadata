@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8060834,
+          -38.5301966,
+          45.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "BGT3",
+        "site": "",
+        "elevation_m": 45.0,
+        "start": "2025-09-30",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8002499,
+          -38.5276102,
+          45.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "BGT2",
+        "site": "",
+        "elevation_m": 45.0,
+        "start": "2025-09-29",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.810684,
+          -38.524982,
+          49.064993154
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3IN",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453002581",
+        "elevation_m": 49.064993154,
+        "start": "2025-09-22",
+        "end": "2025-10-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.810776,
+          -38.532658,
+          54.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3IS",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453011923",
+        "elevation_m": 54.0,
+        "start": "2025-09-22",
+        "end": "2025-10-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.805847,
+          -38.534134,
+          57.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3V10",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453002147",
+        "elevation_m": 57.0,
+        "start": "2025-09-22",
+        "end": "2025-10-20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.807755,
+          -38.532284,
+          56.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3V5",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453022015",
+        "elevation_m": 56.0,
+        "start": "2025-09-22",
+        "end": "2025-10-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.813293,
+          -38.525311,
+          47.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3V8",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453001688",
+        "elevation_m": 47.0,
+        "start": "2025-09-22",
+        "end": "2025-10-20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.797043,
+          -38.532242,
+          60.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3V6",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453021865",
+        "elevation_m": 60.0,
+        "start": "2025-09-22",
+        "end": "2025-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.816071,
+          -38.529755,
+          48.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3C6N",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453021837",
+        "elevation_m": 48.0,
+        "start": "2025-09-11",
+        "end": "2025-10-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.81604,
+          -38.52998,
+          47.34
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3C6S",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453021931",
+        "elevation_m": 47.34,
+        "start": "2025-09-11",
+        "end": "2025-10-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8101954,
+          -38.5293762,
+          45.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "BGB4",
+        "site": "",
+        "elevation_m": 45.0,
+        "start": "2025-09-11",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8063612,
+          -38.5283901,
+          45.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "BGT4",
+        "site": "",
+        "elevation_m": 45.0,
+        "start": "2025-09-29",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8101954,
+          -38.5293762,
+          52.0
+        ]
+      },
+      "properties": {
+        "network": "Z1",
+        "station": "S3B4",
+        "site": "Smart-Solo IGU 16HR 3C temporary site: SN 453012027",
+        "elevation_m": 52.0,
+        "start": "2025-09-11",
+        "end": "2025-10-10"
+      }
+    }
+  ]
+}

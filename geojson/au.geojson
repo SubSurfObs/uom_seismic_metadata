@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.33843,
+          -37.36286,
+          1166.0
+        ]
+      },
+      "properties": {
+        "network": "AU",
+        "station": "RDK1",
+        "site": "",
+        "elevation_m": 1166.0,
+        "start": "2021-09-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.28437,
+          -37.51707,
+          907.0
+        ]
+      },
+      "properties": {
+        "network": "AU",
+        "station": "RDK6",
+        "site": "",
+        "elevation_m": 907.0,
+        "start": "2021-09-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.43965,
+          -37.50238,
+          1113.0
+        ]
+      },
+      "properties": {
+        "network": "AU",
+        "station": "RDK3",
+        "site": "",
+        "elevation_m": 1113.0,
+        "start": "2021-09-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38263,
+          -37.613,
+          1161.0
+        ]
+      },
+      "properties": {
+        "network": "AU",
+        "station": "RDK2",
+        "site": "",
+        "elevation_m": 1161.0,
+        "start": "2021-09-24",
+        "end": null
+      }
+    }
+  ]
+}

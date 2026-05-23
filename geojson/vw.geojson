@@ -1,0 +1,328 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.731308,
+          -38.364674,
+          138.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "LOCU",
+        "site": "",
+        "elevation_m": 138.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.895641,
+          -38.4077366,
+          215.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "SGWU",
+        "site": "",
+        "elevation_m": 215.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.120037,
+          -38.29215,
+          324.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "TRPU",
+        "site": "",
+        "elevation_m": 324.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.173599,
+          -38.01152,
+          276.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "CLIF",
+        "site": "",
+        "elevation_m": 276.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.202377,
+          -38.249557,
+          325.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "NARR",
+        "site": "",
+        "elevation_m": 325.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1693403,
+          -38.461922,
+          236.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "MARD",
+        "site": "",
+        "elevation_m": 236.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.302581,
+          -38.599457,
+          354.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "BEST",
+        "site": "",
+        "elevation_m": 354.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4695,
+          -38.6234,
+          134.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "WLSH",
+        "site": "",
+        "elevation_m": 134.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.87006,
+          -38.57978,
+          14.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "WDSD",
+        "site": "",
+        "elevation_m": 14.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.055166,
+          -38.304537,
+          44.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "STBK",
+        "site": "",
+        "elevation_m": 44.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.116282,
+          -38.7219,
+          171.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "HDDL",
+        "site": "",
+        "elevation_m": 171.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.964,
+          -37.8162,
+          0.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "TEMP",
+        "site": "A minimal station file that has no sensor info (total gain is 1). Designed to be  copied and used to create a skeleton inventory.",
+        "elevation_m": 0.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8853,
+          -37.7439,
+          130.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "BRTH",
+        "site": "",
+        "elevation_m": 130.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.05775,
+          -37.756523,
+          227.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "BRIG",
+        "site": "",
+        "elevation_m": 227.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2771,
+          -38.2216,
+          26.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "DDWB",
+        "site": "",
+        "elevation_m": 26.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.703354,
+          -38.429096,
+          338.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "CRJN",
+        "site": "",
+        "elevation_m": 338.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1698,
+          -38.3941,
+          10.0
+        ]
+      },
+      "properties": {
+        "network": "VW",
+        "station": "SOMU",
+        "site": "",
+        "elevation_m": 10.0,
+        "start": "2000-01-01",
+        "end": null
+      }
+    }
+  ]
+}

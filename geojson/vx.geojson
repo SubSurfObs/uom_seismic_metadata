@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.42255,
+          -38.66068,
+          525.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM1Y",
+        "site": "",
+        "elevation_m": 525.0,
+        "start": "2023-10-23",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.585174,
+          -38.63434,
+          562.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM2Y",
+        "site": "",
+        "elevation_m": 562.0,
+        "start": "2023-10-23",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.43822,
+          -38.72458,
+          171.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM3Y",
+        "site": "",
+        "elevation_m": 171.0,
+        "start": "2023-10-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5089,
+          -38.75895,
+          642.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM4Y",
+        "site": "",
+        "elevation_m": 642.0,
+        "start": "2023-10-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.609772,
+          -38.727016,
+          487.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM5Y",
+        "site": "",
+        "elevation_m": 487.0,
+        "start": "2023-10-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.392547,
+          -38.67945,
+          487.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM6Y",
+        "site": "",
+        "elevation_m": 487.0,
+        "start": "2023-10-24",
+        "end": "2023-10-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.52959,
+          -38.658775,
+          446.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "ABM7Y",
+        "site": "",
+        "elevation_m": 446.0,
+        "start": "2023-11-06",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.481995,
+          -37.54082,
+          1253.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM1Y",
+        "site": "",
+        "elevation_m": 1253.0,
+        "start": "2021-09-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.14951,
+          -37.35209,
+          337.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM2Y",
+        "site": "",
+        "elevation_m": 337.0,
+        "start": "2021-09-23",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.40673,
+          -37.47613,
+          1173.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM3Y",
+        "site": "",
+        "elevation_m": 1173.0,
+        "start": "2021-09-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38144,
+          -37.42442,
+          1554.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM4Y",
+        "site": "",
+        "elevation_m": 1554.0,
+        "start": "2021-09-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.23708,
+          -37.42763,
+          386.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM5Y",
+        "site": "",
+        "elevation_m": 386.0,
+        "start": "2021-09-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.24811,
+          -37.56824,
+          790.0
+        ]
+      },
+      "properties": {
+        "network": "VX",
+        "station": "WPM6Y",
+        "site": "",
+        "elevation_m": 790.0,
+        "start": "2021-09-25",
+        "end": null
+      }
+    }
+  ]
+}

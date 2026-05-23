@@ -1,0 +1,4 @@
+[submodule "external/du"]
+	path = external/du
+	url = https://github.com/SubSurfObs/SAA-Stations.git
+	branch = main

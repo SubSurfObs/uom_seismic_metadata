@@ -1,0 +1,822 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55251,
+          -31.7642,
+          321.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "HKER",
+        "site": "Hawker",
+        "elevation_m": 321.0,
+        "start": "2000-11-02",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.45163,
+          -42.30272,
+          600.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "LEAH",
+        "site": "Tarraleah",
+        "elevation_m": 600.0,
+        "start": "2003-07-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95979,
+          -38.34814,
+          151.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "DROM",
+        "site": "Dromana",
+        "elevation_m": 151.0,
+        "start": "2003-01-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.85085,
+          -38.40644,
+          354.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "KORUM",
+        "site": "Korumburra",
+        "elevation_m": 354.0,
+        "start": "2009-03-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.97353,
+          -36.98907,
+          230.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "CCRM",
+        "site": "Cairn Curren",
+        "elevation_m": 230.0,
+        "start": "1989-05-02",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.31468,
+          -24.07732,
+          92.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "AWOON",
+        "site": "Awoonga Dam Quarry",
+        "elevation_m": 92.0,
+        "start": "2008-07-02",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26808,
+          -23.86989,
+          118.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GLADS",
+        "site": "Gladstone",
+        "elevation_m": 118.0,
+        "start": "2008-07-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.13287,
+          -41.47972,
+          220.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "CETH",
+        "site": "Cethana",
+        "elevation_m": 220.0,
+        "start": "2010-04-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.41696,
+          -38.3476,
+          236.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "JEER",
+        "site": "Jeeralang Junction",
+        "elevation_m": 236.0,
+        "start": "2015-10-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.58887,
+          -34.40335,
+          73.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "HML1",
+        "site": "Hamley Bridge",
+        "elevation_m": 73.0,
+        "start": "2007-03-28",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.25754,
+          -35.42312,
+          738.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GOOGA",
+        "site": "Googong Dam Accelerograph",
+        "elevation_m": 738.0,
+        "start": "2021-02-23",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.46539,
+          -36.52813,
+          432.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "DTMM",
+        "site": "Dartmouth Reg Dam",
+        "elevation_m": 432.0,
+        "start": "1989-06-08",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.51147,
+          -37.13624,
+          280.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "MLWM",
+        "site": "Molesworth",
+        "elevation_m": 280.0,
+        "start": "1985-06-19",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.01093,
+          -40.08652,
+          67.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GRASY",
+        "site": "Grassy, King Island",
+        "elevation_m": 67.0,
+        "start": "2018-08-02",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.73669,
+          -34.8215,
+          300.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "UTT",
+        "site": "Tea Tree Gully",
+        "elevation_m": 300.0,
+        "start": "1993-07-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.90329,
+          -41.81715,
+          851.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "POAT",
+        "site": "Poatina",
+        "elevation_m": 851.0,
+        "start": "2003-07-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.96468,
+          -23.86409,
+          139.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "EASTN",
+        "site": "East End",
+        "elevation_m": 139.0,
+        "start": "2008-07-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.51691,
+          -33.6823,
+          236.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "CLV2",
+        "site": "Cleve",
+        "elevation_m": 236.0,
+        "start": "2014-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.34872,
+          -42.84291,
+          88.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "HBART",
+        "site": "Hobart",
+        "elevation_m": 88.0,
+        "start": "2019-01-30",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0961,
+          -37.52916,
+          260.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "BUCHN",
+        "site": "Buchan",
+        "elevation_m": 260.0,
+        "start": "2018-02-08",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.25749,
+          -35.42313,
+          725.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GOOG",
+        "site": "Googong",
+        "elevation_m": 725.0,
+        "start": "2009-09-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.79897,
+          -37.90266,
+          113.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GLMM",
+        "site": "Glenmaggie Dam",
+        "elevation_m": 113.0,
+        "start": "1999-02-12",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.71765,
+          -38.53194,
+          247.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "FRTM",
+        "site": "Forrest",
+        "elevation_m": 247.0,
+        "start": "1981-10-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.20587,
+          -35.99473,
+          135.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "HOPM",
+        "site": "Mt Hope",
+        "elevation_m": 135.0,
+        "start": "1983-07-05",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.87424,
+          -37.1472,
+          10.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "ROBE",
+        "site": "Robe",
+        "elevation_m": 10.0,
+        "start": "2012-12-11",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.55162,
+          -41.99952,
+          700.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "MARG",
+        "site": "Lake Margaret",
+        "elevation_m": 700.0,
+        "start": "2003-07-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.40099,
+          -36.88672,
+          279.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "GOGM",
+        "site": "Grampians",
+        "elevation_m": 279.0,
+        "start": "1989-07-19",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.05571,
+          -34.25915,
+          54.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "MILD",
+        "site": "Mildura",
+        "elevation_m": 54.0,
+        "start": "2013-09-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9463,
+          -35.32228,
+          535.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "COTT",
+        "site": "Cotter Dam",
+        "elevation_m": 535.0,
+        "start": "2009-09-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.29176,
+          -37.80614,
+          374.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "ROWM",
+        "site": "Rowsley",
+        "elevation_m": 374.0,
+        "start": "1999-01-29",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.88293,
+          -36.1912,
+          1342.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "WAMB",
+        "site": "Wambrook",
+        "elevation_m": 1342.0,
+        "start": "2003-01-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.40738,
+          -37.82313,
+          708.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "TOT",
+        "site": "Thomson Abutment Tower",
+        "elevation_m": 708.0,
+        "start": "1990-12-12",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6221,
+          -33.9598,
+          17.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "WALR",
+        "site": "Wallaroo",
+        "elevation_m": 17.0,
+        "start": "2018-07-20",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.57532,
+          -35.547,
+          96.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "BOGA",
+        "site": "Lake Boga",
+        "elevation_m": 96.0,
+        "start": "2014-05-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.73599,
+          -38.3406,
+          428.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "WILL",
+        "site": "Willung South",
+        "elevation_m": 428.0,
+        "start": "2000-07-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.01112,
+          -37.81905,
+          20.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "SRCHQ",
+        "site": "SRC 141 Palmer St Richmond",
+        "elevation_m": 20.0,
+        "start": "2018-11-22",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.15672,
+          -32.66918,
+          294.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "WILM",
+        "site": "Wilmington",
+        "elevation_m": 294.0,
+        "start": "2021-10-06",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.786,
+          -37.9017,
+          236.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "WORN",
+        "site": "Woorndoo",
+        "elevation_m": 236.0,
+        "start": "2014-05-13",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6256,
+          -34.62973,
+          112.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "MRAT",
+        "site": "Mount Rat",
+        "elevation_m": 112.0,
+        "start": "2007-03-06",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.42525,
+          -37.94652,
+          244.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "CDNM",
+        "site": "Cardinia Reservoir",
+        "elevation_m": 244.0,
+        "start": "1996-04-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.95012,
+          -41.09589,
+          106.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "CURRY",
+        "site": "Curries River",
+        "elevation_m": 106.0,
+        "start": "2016-12-18",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.63725,
+          -35.4894,
+          74.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "TPSO",
+        "site": "Victor Harbor",
+        "elevation_m": 74.0,
+        "start": "2018-04-28",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.1806,
+          -36.2392,
+          595.0
+        ]
+      },
+      "properties": {
+        "network": "OZ",
+        "station": "MR2A",
+        "site": "Murray 2 Downstream",
+        "elevation_m": 595.0,
+        "start": "1996-01-01",
+        "end": null
+      }
+    }
+  ]
+}

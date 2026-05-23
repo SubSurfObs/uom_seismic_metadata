@@ -1,0 +1,53 @@
+# VW network — station epoch sources (single source of truth).
+# StationXML/SCML are GENERATED from this + source/instruments + source/responses.
+# Channels are expanded from the instrument's `components` with standard ZNE az/dip;
+# the SEED channel code (band letter) is derived from sample_rate (250->CH, 1000->FH).
+#
+# NB: epoch starts marked PLACEHOLDER come from the SCML network-epoch default
+# (2000-01-01) and must be refined from EQ Server (see eqserver_2_seiscomp). Historical
+# EchoPro epochs will be prepended later from EQ Server / sudspy.
+
+TRPU:
+  network: VW
+  latitude:  -38.29215
+  longitude: 146.120037
+  elevation: 324.0
+  epochs:
+    - start: 2000-01-01            # PLACEHOLDER (SCML default) — refine from EQ Server
+      end: null                    # current / open
+      instrument: gecko_g8_s21g
+      sample_rate: 250
+      basis: scml
+      confidence: high             # instrument config high; start date is placeholder
+      source: "scml/vw.xml (VW.TRPU)"
+      notes: "true deployment date TBD from EQ Server; EchoPro history to be prepended"
+
+MARD:
+  network: VW
+  latitude:  -38.461922
+  longitude: 146.1693403
+  elevation: 236.0
+  epochs:
+    - start: 2000-01-01            # PLACEHOLDER (SCML default) — refine from EQ Server
+      end: null                    # current / open
+      instrument: gecko_g1_cmg6t
+      sample_rate: 250
+      basis: scml
+      confidence: high
+      source: "scml/vw.xml (VW.MARD)"
+      notes: "true deployment date TBD from EQ Server; EchoPro history to be prepended"
+
+BEST:
+  network: VW
+  latitude:  -38.599457
+  longitude: 146.302581
+  elevation: 354.0
+  epochs:
+    - start: 2000-01-01            # PLACEHOLDER (SCML default) — refine from EQ Server
+      end: null
+      instrument: gecko_g1_cmg6t
+      sample_rate: 250
+      basis: scml
+      confidence: high
+      source: "scml/vw.xml (VW.BEST)"
+      notes: "added for amplitude validation against tests/ BEST waveforms"

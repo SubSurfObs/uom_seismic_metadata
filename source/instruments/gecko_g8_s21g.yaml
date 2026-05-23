@@ -1,0 +1,26 @@
+# Instrument template: IESE S21g (short-period) + SRC Gecko (preamp gain 8)
+# Authoritative response = the pinned file in source/responses/ (harvested + to be
+# amplitude-validated). NRL keys below are documentation / regeneration hints only.
+recorder:
+  make: SeismologyResearchCentre
+  model: Gecko
+  preamp_gain: 8
+  in_nrl: true
+sensor:
+  make: IESE
+  model: S21g
+  sensitivity_v_per_ms: 76.0
+  low_freq_corner_hz: 2.0
+  sensor_band: short_period       # informational; SEED band code is rate-driven
+instrument_code: H
+components: [Z, N, E]
+location: "00"
+nrl:
+  sensor_keys:     ["IESE", "S21g", "..."]   # TODO confirm exact NRL path
+  datalogger_keys: ["SeismologyResearchCentre", "Gecko", "gain 8"]
+response_ref: responses/gecko_g8_s21g_{rate}.xml
+harvested:
+  from: {250: VW.TRPU..CHZ, 1000: Z1.BGT3..CHZ}
+  source_file: scml/vw.xml, scml/z1.xml
+  date: 2026-05-23
+  rates_available: [250, 1000]

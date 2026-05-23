@@ -1,0 +1,974 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9046,
+          -34.9995,
+          50.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUALB",
+        "site": "St Joseph's College",
+        "elevation_m": 50.0,
+        "start": "2013-09-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8835,
+          -23.6899,
+          573.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUALC",
+        "site": "St Philip's College",
+        "elevation_m": 573.0,
+        "start": "2015-08-19",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1139,
+          -35.2839,
+          555.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUANU",
+        "site": "Australian National University",
+        "elevation_m": 555.0,
+        "start": "2022-11-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4088,
+          -19.5774,
+          13.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUAYR",
+        "site": "Ayr State High School",
+        "elevation_m": 13.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2321,
+          -17.9565,
+          20.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUBRM",
+        "site": "Broome Senior High School",
+        "elevation_m": 20.0,
+        "start": "2019-07-14",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8684,
+          -41.0405,
+          10.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUBRN",
+        "site": "Burnie High School",
+        "elevation_m": 10.0,
+        "start": "2017-07-06",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9547,
+          -26.864,
+          26.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUBSH",
+        "site": "Beerwah State High School",
+        "elevation_m": 26.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.3828,
+          -33.6601,
+          13.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUBUS",
+        "site": "Georgiana Molloy Anglican School",
+        "elevation_m": 13.0,
+        "start": "2013-10-20",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6586,
+          -24.8851,
+          17.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUCAR",
+        "site": "St Mary Star of the Sea",
+        "elevation_m": 17.0,
+        "start": "2013-09-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7219,
+          -34.2637,
+          72.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUCAS",
+        "site": "Cummins Area School",
+        "elevation_m": 72.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7682,
+          -16.9159,
+          17.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUCSH",
+        "site": "Cairns State High School",
+        "elevation_m": 17.0,
+        "start": "2013-09-03",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1377,
+          -35.253,
+          575.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUDAR",
+        "site": "Daramalan College",
+        "elevation_m": 575.0,
+        "start": "2012-04-11",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6278,
+          -32.2334,
+          276.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUDCS",
+        "site": "Dubbo College Senior Campus",
+        "elevation_m": 276.0,
+        "start": "2013-05-30",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.833,
+          -12.44,
+          26.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUDHS",
+        "site": "Darwin High School",
+        "elevation_m": 26.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.059,
+          -34.2858,
+          132.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUGRF",
+        "site": "Marian Catholic College",
+        "elevation_m": 132.0,
+        "start": "2019-04-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8912,
+          -33.0927,
+          39.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUHAR",
+        "site": "St Anne's School",
+        "elevation_m": 39.0,
+        "start": "2014-09-18",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3183,
+          -38.1068,
+          11.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUHPC",
+        "site": "Hawkesdale P12 School",
+        "elevation_m": 11.0,
+        "start": "2013-05-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6098,
+          -33.2047,
+          464.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUJCS",
+        "site": "Jamestown Community School",
+        "elevation_m": 464.0,
+        "start": "2013-08-23",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4789,
+          -30.7637,
+          373.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKAL",
+        "site": "John Paul College",
+        "elevation_m": 373.0,
+        "start": "2013-09-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8178,
+          -20.752,
+          45.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKAR",
+        "site": "St Luke's College",
+        "elevation_m": 45.0,
+        "start": "2013-09-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.2829,
+          -14.4624,
+          122.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKAT",
+        "site": "Katherine High School",
+        "elevation_m": 122.0,
+        "start": "2013-08-29",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3827,
+          -33.4642,
+          27.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKHS",
+        "site": "Kincumber High School",
+        "elevation_m": 27.0,
+        "start": "2013-05-28",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1584,
+          -37.9684,
+          50.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKSC",
+        "site": "Keysborough Secondary College",
+        "elevation_m": 50.0,
+        "start": "2013-05-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1522,
+          -32.6697,
+          312.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUKUL",
+        "site": "Kulin District High School",
+        "elevation_m": 312.0,
+        "start": "2013-11-21",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.215,
+          -41.2519,
+          173.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AULHS",
+        "site": "Lilydale High School",
+        "elevation_m": 173.0,
+        "start": "2013-10-31",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.979,
+          -29.4262,
+          145.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AULRC",
+        "site": "Lightning Ridge Central School",
+        "elevation_m": 145.0,
+        "start": "2013-08-29",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7482,
+          -36.1016,
+          127.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMAG",
+        "site": "Moama Anglican Grammar",
+        "elevation_m": 127.0,
+        "start": "2013-05-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6357,
+          -34.8916,
+          153.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMAR",
+        "site": "Marden Senior College",
+        "elevation_m": 153.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0384,
+          -32.0069,
+          263.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMAZ",
+        "site": "Mazenod Senior College",
+        "elevation_m": 263.0,
+        "start": "2013-12-04",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2859,
+          -35.134,
+          50.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMBR",
+        "site": "Murray Bridge High School",
+        "elevation_m": 50.0,
+        "start": "2016-06-20",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0888,
+          -35.3635,
+          615.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMHS",
+        "site": "Melrose High School",
+        "elevation_m": 615.0,
+        "start": "2012-04-11",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9814,
+          -24.5752,
+          153.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMOU",
+        "site": "Moura State High School",
+        "elevation_m": 153.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8771,
+          -37.6089,
+          48.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMTC",
+        "site": "Mt Clear College/Earth Ed",
+        "elevation_m": 48.0,
+        "start": "2013-05-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9964,
+          -35.3188,
+          667.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMTS",
+        "site": "Mt Stromlo",
+        "elevation_m": 667.0,
+        "start": "2011-09-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4949,
+          -28.5585,
+          60.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUMUL",
+        "site": "Mullumbimby High School",
+        "elevation_m": 60.0,
+        "start": "2013-08-29",
+        "end": "2014-12-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.7832,
+          -12.1874,
+          20.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUNHS",
+        "site": "Nhulunbuy High School",
+        "elevation_m": 20.0,
+        "start": "2013-08-28",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5329,
+          -23.3529,
+          38.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUNRC",
+        "site": "North Rockhampton State High School",
+        "elevation_m": 38.0,
+        "start": "2013-09-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8943,
+          -31.099,
+          404.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUPHS",
+        "site": "Peel High School",
+        "elevation_m": 404.0,
+        "start": "2013-05-30",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9011,
+          -41.0809,
+          171.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUPKL",
+        "site": "Parklands High School",
+        "elevation_m": 171.0,
+        "start": "2016-11-25",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7404,
+          -34.1728,
+          26.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AURMK",
+        "site": "Renmark High School",
+        "elevation_m": 26.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.8971,
+          -30.5601,
+          106.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUROX",
+        "site": "Roxby Downs Area School",
+        "elevation_m": 106.0,
+        "start": "2013-09-02",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8866,
+          -38.368,
+          23.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AURSC",
+        "site": "Rosebud Secondary College",
+        "elevation_m": 23.0,
+        "start": "2013-05-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1147,
+          -35.2839,
+          585.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUSIS",
+        "site": "Australian National University",
+        "elevation_m": 585.0,
+        "start": "2011-09-13",
+        "end": "2020-04-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6084,
+          -36.4161,
+          951.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUSMG",
+        "site": "Snowy Mountains Grammar School",
+        "elevation_m": 951.0,
+        "start": "2013-03-18",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0825,
+          -38.0977,
+          19.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUSSC",
+        "site": "Sale College",
+        "elevation_m": 19.0,
+        "start": "2013-11-21",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3551,
+          -42.9425,
+          25.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUTAR",
+        "site": "Taroona High School",
+        "elevation_m": 25.0,
+        "start": "2013-11-01",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0254,
+          -33.7846,
+          95.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUTKS",
+        "site": "The King's School",
+        "elevation_m": 95.0,
+        "start": "2014-02-27",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9668,
+          -27.5452,
+          687.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUTOO",
+        "site": "Toowoomba State High School",
+        "elevation_m": 687.0,
+        "start": "2013-08-26",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4696,
+          -35.3589,
+          44.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUUHS",
+        "site": "Ulladulla High School",
+        "elevation_m": 44.0,
+        "start": "2013-09-15",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0372,
+          -27.3977,
+          60.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUWSH",
+        "site": "Wavell State High School",
+        "elevation_m": 60.0,
+        "start": "2013-06-24",
+        "end": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.1353,
+          -26.2844,
+          670.0
+        ]
+      },
+      "properties": {
+        "network": "S1",
+        "station": "AUAPY",
+        "site": "Ernabella Anangu School",
+        "elevation_m": 670.0,
+        "start": "2019-08-07",
+        "end": null
+      }
+    }
+  ]
+}

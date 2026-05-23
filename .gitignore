@@ -1,0 +1,13 @@
+# Local-only — contains SMP password + API token; this repo is PUBLIC, never commit.
+Gempa-smp.md
+
+# OS cruft
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+**/.ipynb_checkpoints/

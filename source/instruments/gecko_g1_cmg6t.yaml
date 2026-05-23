@@ -1,0 +1,25 @@
+# Instrument template: Guralp CMG-6T + SRC Gecko (preamp gain 1)
+# Authoritative response = the pinned file in source/responses/ (harvested + to be
+# amplitude-validated). NRL keys below are documentation / regeneration hints only.
+recorder:
+  make: SeismologyResearchCentre
+  model: Gecko
+  preamp_gain: 1
+  in_nrl: true
+sensor:
+  make: Guralp
+  model: CMG-6T
+  sensitivity_v_per_ms: 2400
+  sensor_band: broadband          # informational; SEED band code is rate-driven
+instrument_code: H                # SEED 2nd letter (seismometer)
+components: [Z, N, E]             # generator applies standard ZNE az/dip
+location: "00"
+nrl:
+  sensor_keys:     ["Guralp", "CMG-6T", "...", "2400 V/m/s"]   # TODO confirm exact NRL path
+  datalogger_keys: ["SeismologyResearchCentre", "Gecko", "gain 1"]
+response_ref: responses/gecko_g1_cmg6t_{rate}.xml
+harvested:
+  from: VW.MARD..CHZ
+  source_file: scml/vw.xml
+  date: 2026-05-23
+  rates_available: [250]          # 1000 Hz variant to be harvested when needed
