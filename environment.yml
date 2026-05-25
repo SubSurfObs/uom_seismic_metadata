@@ -6,3 +6,5 @@ dependencies:
   - obspy=1.5.0
   - lxml
   - pyyaml
+  - pandas
+  - openpyxl
